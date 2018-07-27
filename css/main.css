@@ -3,6 +3,11 @@
     margin:auto;
     margin:auto;
 }
+.container {
+    margin-top:20;
+    margin:auto;
+    margin:auto;
+}
 .navbar {
     overflow: hidden;
     background-color: #ff6961;
