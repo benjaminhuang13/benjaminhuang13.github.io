@@ -1,9 +1,5 @@
-/* body {
-    margin: 60px auto;
-    width: 70%;
-} */
 .container {
-    margin-top: 30px; /* Add a bottom margin to avoid content overlay */
+    padding-top:58px;
 }
 .navbar {
     overflow: hidden;
@@ -32,15 +28,13 @@
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: white;
 }
 .boxhead a {
     color: red;
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -56,6 +50,9 @@ footer {
 }
 ul.posts li {
     list-style: none;
+}
+ul li {
+     list-style-type: none;
 }
 
 
