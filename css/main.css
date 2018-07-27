@@ -25,8 +25,8 @@
 }
 body{
     width:80%;
-    margin:auto;
-    padding:20x;
+    margin:30x;
+    padding:40x;
 }
 /* body {
     margin:auto;
@@ -48,10 +48,15 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+    
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .6em;
     color: black;
+}
+footer a{
+    text-decoration: none;
+    colr:black;
 }
 ul.posts li {
     list-style: none;
