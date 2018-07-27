@@ -22,18 +22,18 @@
     background: #eeeeee;
     color: red;
 }
-.container{
+/* .container{
     width:80%;
     margin:10000x;
     padding:100x;
-}
-/*  body {
+} */
+body {
     margin:auto;
     padding-top: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
     padding-left: 100px;
-}  */
+}  
 
 h1 {
     font-size: 2em;
