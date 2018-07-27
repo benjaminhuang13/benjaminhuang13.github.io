@@ -41,6 +41,20 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
 .container{
     margin-top: 30px;
 }
