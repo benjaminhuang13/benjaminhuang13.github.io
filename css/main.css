@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-/* nav ul, footer ul {
+nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -11,14 +11,14 @@ body {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-} */
-/* a {
+}
+a {
     text-decoration: none;
     color: #999;
-} */
-/* a:hover {
+}
+a:hover {
     text-decoration: underline;
-} */
+}
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,39 +43,3 @@ ul.posts li {
 }
 
 
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-.container{
-    margin-top: 30px;
-}
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.navbar {
-    list-style: none;
-    font-weight: bold;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-.navbar a:hover {
-    background: #ddd;
-    color: red;
-}
