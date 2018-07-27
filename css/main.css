@@ -53,6 +53,8 @@ ul.posts li {
     text-decoration: none;
 }
 .navbar {
+    list-style: none;
+    font-weight: bold;
     overflow: hidden;
     background-color: #333;
     position: fixed; /* Set the navbar to fixed position */
