@@ -1,7 +1,7 @@
-text {
+.text {
     margin-top:20;
-    margin-left:auto;
-    margin-right:auto;
+    margin:auto;
+    margin:auto;
 }
 .navbar {
     overflow: hidden;
