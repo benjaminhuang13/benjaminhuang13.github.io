@@ -23,10 +23,10 @@
     background: #eeeeee;
     color: red;
 }
-body{
+.container{
     width:80%;
-    margin:30x;
-    padding:40x;
+    margin:60x;
+    padding:70x;
 }
 /* body {
     margin:auto;
