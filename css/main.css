@@ -12,10 +12,10 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 } */
-a {
+/* a {
     text-decoration: none;
     color: #999;
-}
+} */
 /* a:hover {
     text-decoration: underline;
 } */
@@ -41,7 +41,14 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .navbar {
     overflow: hidden;
     background-color: #333;
