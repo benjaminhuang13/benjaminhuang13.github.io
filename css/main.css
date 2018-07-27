@@ -2,7 +2,9 @@
     margin: 60px auto;
     width: 70%;
 } */
-
+.container {
+    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
 .navbar {
     overflow: hidden;
     background-color: #ff6961;
