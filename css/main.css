@@ -33,7 +33,7 @@ a {
     color: #999;
 }
 .boxhead a {
-    color: #FFFFFF;
+    color: red;
     text-decoration: none;
 }
 a:hover {
