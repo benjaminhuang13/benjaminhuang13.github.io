@@ -28,7 +28,7 @@ body {
     padding-bottom: 200px;
 }  
 container{
-    self-align: center;
+    align-self: center;
 }
 h1 {
     font-size: 2em;
