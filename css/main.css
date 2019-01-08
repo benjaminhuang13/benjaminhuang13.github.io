@@ -24,13 +24,12 @@
 }
 
 body {
-    margin:30px;
     padding-top: 200px;
-    padding-right: 100px;
     padding-bottom: 200px;
-    padding-left: 100px;
 }  
-
+container{
+    self-align: center;
+}
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
