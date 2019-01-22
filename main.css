@@ -1,0 +1,137 @@
+﻿body {
+    font-family: 'Verdana';
+    color: rgba(225, 225, 225, 1.00);
+    background-repeat: no-repeat;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    background-color: #222629;
+    margin: 0px;
+}
+
+
+.navbar {
+    background-color: #222629;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar a:first-child {
+    float: left;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.navbar a {
+    margin-top: 10px;
+    float: right;
+    font-family: 'Verdana';
+    display: block;
+    color: rgba(225, 225, 225, 1.00);
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #66de37;
+}
+
+.frontparallax {
+    /* The image used */
+    background-image: url("Starlit Valley.png");
+    /* Set a specific height */
+    height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 60px ;
+
+}
+.startscroll {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: rgba(225, 225, 225, 1.00);
+    margin: 0px;
+    z-index:2;
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: 2s ease;
+}
+
+
+.logo:hover {
+    opacity: 0;
+    transition: 5s ease;
+}
+
+.text {
+    opacity: 1;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.content {
+    background: #333;
+    margin: 0;
+    float: left;
+    padding: 5%;
+    width: 40%; 
+    height: 400px;
+
+}
+.row.content a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #d5d5d5;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    color: rgba(225, 225, 225, 1.00);
+    margin: 50px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+footer ul li a{
+    padding: 5px 15px 15px 5px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(225, 225, 225, 1.00);
+}

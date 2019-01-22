@@ -1,9 +1,91 @@
----
-layout: default
-title: Benjamin Huang
----
+﻿<!DOCTYPE html>
 
-<div class="text">
-	<h1>I'm Benjamin Huang</h1>
-	<img src="cspic.png" alt="oops it disappeared">
-</div><!-- /.text -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Not displayed, only body-->
+    <meta charset="utf-8" />
+    <title>Benjamin Huang</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <meta content="Benjamin Huang" name="author" />
+    <meta content="Benjamin Huang is a computer engineering developing his skills in embedded systems and cybersecurity to ensure the safety of people as the influx of IoT devices increase in our homes and offices" />
+
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <a href="https://benjaminhuang13.github.io">Benjamin Huang</a>
+            <a href="resume.html">Resume</a>
+            <a href="/PROJECTS">Projects</a>
+            <a href="about.html">About Me</a>
+        </nav>
+    </div>
+
+    <div class="text">Hello World</div>
+
+    <div class="frontparallax">
+        <div class="startscroll"> Scroll Down. </div>
+
+        <div class="logo">
+            <img src="logo.png" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="content">
+            <img src="picofme.jpg" />
+        </div>
+        <div class="content">
+            <h1>About Me</h1>
+            <p>I am currently a computer engineering student pursuing a computer science minor at Stony Brook University while interning as an IT Technician on campus.</p>
+            <p>My interest lie in embedded systems and cybersecurity. In the future, I will work on IoT devices to make sure users are protected.</p>
+            <p>I also love to explore the outdoors, hit the gym and try new cuisines.</p>
+            <a href="about.html">Read more...</a>
+        </div>
+    </div>
+    <h1>My Work</h1>
+    <div class="row">
+        <div class="content">
+            <h2>Frequency Meter System with Auto Ranging</h2>
+            <p>
+             Designed a system that measures the frequency of a waveform using Embedded Microprocessor Systems Design Techniques with precision. The device utilized an ATmega324A Microcontroller and takes in a waveform as a input. The device used the ATmega324A's built-in Timer/Counters to determine whether measuring the period or the frequency will be more precise. A LCD DOG display was integrated into the design to display the period, frequency, and duty cycle. The device's software was developed in the Assembly language and utilized efficient management of subroutines and Interrupt Service Routines to measure the frequency with a precision of 0.01%.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Personal Website</h2>
+            <p>
+            You're looking at it right now! I used HTML and CSS to make this website.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Minesweeper Project</h2>
+            <p>
+             I used concepts such as object-oriented programming, recursion and basic data structures. Recreated the retro game using Java in Eclipse and implemented a GUI using JavaFX
+            </p>
+        </div>
+        <div class="content">
+            <h2>DAC Saw-Wave Generator</h2>
+            <p>
+             Designed a system that generated a saw-wave with a Digital-to-Analog Converter using the Direct Digital Synthesis concept. The data path and controller units was implemented with the Field Programmable Gate Array(FPGA) Ice40HX1k on IceStick board and DAC MCP48901. The analog signal is approximated with an 8-bit DAC which communicates with the controller (Master) through a 3-wire link compatible with Serial Peripheral Interface(SPI). The DAC operates as a SPI Slave and the SPI Master that generates the chip select was designed using logic gates, flipflops and multiplexers.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Alarm Clock</h2><!--I want to have a picture of the project sweep over when I hover-->
+            <p>
+                -Used PSpice to simulate the circuit
+                -Programmed the micro controller in Atmel Studio
+                -Manually soldered in electrical components on PCB board
+            </p>
+        </div>
+    </div>
+</body>
+<footer>
+    <h2>Link up with me!</h2>
+    <ul>
+        <li><a href="mailto:benjhg13@gmail.com">benjhg13@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/benjaminhuang3/" target="_blank">Linkedin</a></li>
+        <li><a href="https://github.com/benjaminhuang13" target="_blank">Github</a></li>
+        <li><a href="https://www.instagram.com/benjh13/?hl=en" target="_blank">Instagram</a></li>
+    </ul>
+    <p>©2019 Benjamin Huang</p>
+</footer>
+</html>
