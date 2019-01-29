@@ -1,5 +1,6 @@
 ﻿body {
     font-family: 'Verdana';
+    font-size: 17px;
     color: rgba(225, 225, 225, 1.00);
     background-repeat: no-repeat;
     text-align: left;
@@ -18,12 +19,14 @@
     left: 0;
     width: 100%;
     z-index: 10;
+    height: 90px;
 }
 
 .navbar a:first-child {
     float: left;
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 5px;
+    font-family: Verdana;
 }
 
 .navbar a {
@@ -33,7 +36,7 @@
     display: block;
     color: rgba(225, 225, 225, 1.00);
     text-align: center;
-    padding: 30px 20px;
+    padding: 22px 40px;
     text-decoration: none;
 }
 .navbar a:hover {
@@ -44,15 +47,14 @@
     /* The image used */
     background-image: url("Starlit Valley.png");
     /* Set a specific height */
-    height: 800px;
+    min-height: 95vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin-top: 60px ;
-
+    margin-top: 60px;
 }
 .startscroll {
     position: absolute;
@@ -74,12 +76,12 @@
 
 .logo:hover {
     opacity: 0;
-    transition: 5s ease;
+    transition: 2s ease;
 }
 
 .text {
     opacity: 1;
-    color: white;
+    color: #05836f;
     font-size: 40px;
     position: absolute;
     top: 50%;
@@ -90,25 +92,30 @@
     text-align: center;
 }
 
-.row:after {
-    clear: both;
-    content: " ";
-    display: table;
+
+
+.container {
+    padding: 0px 100px 0px 100px;
+    display: flex;
 }
 
 .content {
     background: #333;
-    margin: 0;
-    float: left;
-    padding: 5%;
-    width: 40%; 
-    height: 400px;
+    padding: 20px;
+    flex-basis: 45%;
+    flex: 50%;
+
 
 }
-.row.content a{
-    text-decoration: none;
+
+@media (min-width: 700px){
+    .container{
+        display:flex;
+        justify-content: space-between;
+    }
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
@@ -128,10 +135,15 @@ footer ul li {
     list-style-type: none;
     text-align: center;
 }
-footer ul li a{
+
+footer ul li a {
     padding: 5px 15px 15px 5px;
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
     color: rgba(225, 225, 225, 1.00);
+}
+
+.contactlinks a:hover {
+    color: #66de37;
 }
