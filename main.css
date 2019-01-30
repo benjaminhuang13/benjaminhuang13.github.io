@@ -1,18 +1,18 @@
 ﻿body {
     font-family: 'Verdana';
-    font-size: 17px;
-    color: rgba(225, 225, 225, 1.00);
+    font-size: 18px;
+    color: #fafafa;
     background-repeat: no-repeat;
     text-align: left;
     height: 100%;
     width: 100%;
-    background-color: #222629;
+    background: #191919;
     margin: 0px;
 }
 
 
 .navbar {
-    background-color: #222629;
+    background-color: #191919;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -34,11 +34,12 @@
     float: right;
     font-family: 'Verdana';
     display: block;
-    color: rgba(225, 225, 225, 1.00);
+    color: #fafafa;
     text-align: center;
     padding: 22px 40px;
     text-decoration: none;
 }
+
 .navbar a:hover {
     color: #66de37;
 }
@@ -56,28 +57,29 @@
     width: 100%;
     margin-top: 60px;
 }
+
 .startscroll {
     position: absolute;
     bottom: 8px;
     right: 16px;
-    color: rgba(225, 225, 225, 1.00);
+    color: #fafafa;
     margin: 0px;
-    z-index:2;
+    z-index: 2;
 }
+
 .logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    transition: 2s ease;
 }
-
 
 .logo:hover {
     opacity: 0;
     transition: 2s ease;
 }
+
 
 .text {
     opacity: 1;
@@ -93,26 +95,95 @@
 }
 
 
-
 .container {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 200px 0px 200px;
     display: flex;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.content {
-    background: #333;
-    padding: 20px;
-    flex-basis: 45%;
-    flex: 50%;
-
-
+.container .content {
+    background: #191919;
+    width: 50%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-width: 500px;
+    white-space: normal;
+    display: table-cell; /* Make elements inside the container behave like table cells so that each column is same height */
 }
 
-@media (min-width: 700px){
-    .container{
-        display:flex;
-        justify-content: space-between;
+    .container .contenttext {
+        background: #191919;
+        width: 50%;
+        padding: 4%;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        min-width: 500px;
+        white-space: normal;
+        display: table-cell; /* Make elements inside the container behave like table cells so that each column is same height */
+        position: relative;
+        min-height: 350px;
     }
+
+/*@media (min-width: 700px) {
+    .container {
+        width: 80%;
+        min-width: 500px;
+    }
+}*/
+
+.contenttext a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.contenttext a:hover {
+    color: #66de37;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+.picofme {
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+
+.titlecard {
+    color: White;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: #66de37;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+    line-height: 50vh;
+}
+
+.titlecard:hover {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.titlecard {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -125,7 +196,7 @@ footer {
     font-size: 20px;
     color: black;
     text-decoration: none;
-    color: rgba(225, 225, 225, 1.00);
+    color: #fafafa;
     margin: 50px;
     text-align: center;
 }
@@ -141,9 +212,53 @@ footer ul li a {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    color: rgba(225, 225, 225, 1.00);
+    color: #fafafa;
 }
 
 .contactlinks a:hover {
     color: #66de37;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.center {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+#social-test {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+   
+h2{
+    color: #fff;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+}       
+
+
+li {
+    color: white;
+    width: 50px;
+    cursor: pointer;
+    transition: ease .3s;
+}
+social-test :hover {
+    color: #66de37;
+}
+
+.social:hover > li {
+    opacity: 0.5;
+}
+
+.social:hover > li:hover {
+    opacity: 1;
 }

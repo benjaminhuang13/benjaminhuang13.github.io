@@ -13,114 +13,148 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
     <script src="jquery.localscroll.js" type="text/javascript"></script>
     <script src="jquery.scrollTo.js" type="text/javascript"></script>
+    <!--For Footer-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
-<body>
-    <div class="navbar">
-        <nav>
-            <a href="https://benjaminhuang13.github.io">Benjamin Huang</a>
-            <a href="resume.html">Resume</a>
-            <a href="#projects">Projects</a>
-            <a href="about.html">About ME</a>
-        </nav>
-    </div>
 
-    <div class="text">Hello World</div>
-
-    <div class="frontparallax">
-        <div class="startscroll"> Scroll Down. </div>
-
-        <div class="logo">
-            <img src="logo.PNG" />
+    <body>
+        <div class="navbar">
+            <nav>
+                <a href="https://benjaminhuang13.github.io">Benjamin Huang</a>
+                <a href="resume.html">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="about.html">About ME</a>
+            </nav>
         </div>
-    </div>
+
+        <div class="text">Hello World</div>
+
+        <div class="frontparallax">
+            <div class="startscroll"> Scroll Down. </div>
+
+            <div class="logo">
+                <img src="logo.PNG" />
+            </div>
+        </div>
+
         <div class="container">
             <!--PIC FOR ABT ME-->
             <div class="content">
-                <img src="picofme.jpg" height="300" width="300" />
+                <div class="picofme">
+                    <img src="picofme.PNG" />
+                </div>
             </div>
+
             <!--TEXT FOR ABT ME-->
-            <div class="content">
+            <div class="contenttext">
                 <h1>About Me</h1>
                 <p>Currently a computer engineering student pursuing a computer science minor at Stony Brook University while interning as a IT Technician on campus.</p>
                 <p>My interests lie in embedded systems and cybersecurity. In the future, I will work on IoT devices to make sure users are protected as the influx of IoT in our homes and offices increase.</p>
                 <p>I also love to explore the outdoors, hit the gym and try new cuisines.</p>
-                <a href="about.html">Read more ..</a>
+                <a href="about.html">Read more...</a>
             </div>
 
-            <div class="content">
+            <div class="contenttext">
                 <h1>Projects</h1>
             </div>
-            <div class="content">
-                <h1>Projects</h1>
-            </div>
+        </div>
+
+        <div class="container">
             <!--TEXT FOR WEBDEV--><!--I WANT TO HAVE THE NAME OF PROJECT COVERING TEXT AND U HAVE TO HOVER TO SEE-->
-            <div class="content">
-                <h2>Personal Website</h2>
+            <div class="contenttext">
+                <div class="titlecard">
+                    <h2>Personal Website</h2>
+                </div>
                 <p>
-                    You're looking at it right now! I used HTML and CSS and built this website from scratch. It took a lot of Googling and its a continuous project as I learn more Web Development skills. Thank you to Codeacademy's youtube channel for teaching me the basics!
+                    You're looking at it! I used HTML, CSS and a ton of Googling to build this website from scratch. It's a continuous project as I continue to learn more Web Development skills.
+                    So far I spent about 36 hours on this website. Next up is JavaScript!
                 </p>
             </div>
             <!--PICTURE FOR WEBDEV-->
             <div class="content">
-                <img src="webdev.jpg" height="400" width="500" />
+                <img src="webdev.jpg">
             </div>
             <!--PIC FOR FREQUENCY-->
             <div class="content">
-                <img src="wavedevice.PNG" height="350" width="500" />
+                <img src="wavedevice.PNG" />
             </div>
             <!--TEXT FOR FREQUENCY-->
-            <div class="content">
-                <h2>Frequency Meter System with Auto Ranging</h2>
+            <div class="contenttext">
+                <div class="titlecard">
+                    <h2>Signal Meter System</h2>
+                </div>
                 <p>
-                    Designed a system that measures the frequency of a waveform using Embedded Microprocessor Systems Design Techniques with precision. The device utilized an ATmega324A Microcontroller and takes in a waveform as a input. The device used the ATmega324A's built-in Timer/Counters to determine whether measuring the period or the frequency will be more precise. A LCD DOG display was integrated into the design to display the period, frequency, and duty cycle. The device's software was developed in the Assembly language and utilized efficient management of subroutines and Interrupt Service Routines to measure the frequency with a precision of 0.01%.
+                    Designed a system that measures the precise frequency and period of a waveform using Embedded Microprocessor Systems Design Techniques. The device utilized an ATmega324A Microcontroller and takes in a signal as an input. The device used the ATmega324A's built-in Timer/Counters to determine whether measuring the period or the frequency will be more precise. A LCD DOG display was integrated into the design to display the period, frequency, and duty cycle. The device's software was developed in AVR Assembly language and utilized efficient management of subroutines and Interrupt Service Routines to measure the frequency with a precision of 0.01%.
                 </p>
             </div>
             <!--TEXT FOR MINESWEEPER-->
-            <div class="content">
-                <h2>Minesweeper Project</h2>
+            <div class="contenttext">
+                <div class="titlecard">
+                    <h2>Minesweeper Project</h2>
+                </div>
                 <p>
                     I used concepts such as object-oriented programming, recursion and basic data structures. Recreated the retro game using Java in Eclipse and implemented a GUI using JavaFX
                 </p>
             </div>
             <!--PIC FOR MINESWEEPER-->
             <div class="content">
-                <img src="minesweeper.jpg" height="280" width="400" />
+                <img src="minesweeper.jpg" />
             </div>
             <!--PIC FOR SAWWAVE-->
             <div class="content">
-                <img src="dac.PNG" height="400" width="400" />
+                <img src="dac.jpg" />
             </div>
             <!--TEXT FOR SAWWAVE-->
-            <div class="content">
-                <h2>DAC Saw-Wave Generator</h2>
+            <div class="contenttext">
+                <div class="titlecard">
+                    <h2>DAC Saw-Wave Generator</h2>
+                </div>
                 <p>
                     Designed a system that generated a saw-wave with a Digital-to-Analog Converter using the Direct Digital Synthesis concept. The data path and controller units was implemented with the Field Programmable Gate Array(FPGA) Ice40HX1k on IceStick board and DAC MCP48901. The analog signal is approximated with an 8-bit DAC which communicates with the controller (Master) through a 3-wire link compatible with Serial Peripheral Interface(SPI). The DAC operates as a SPI Slave and the SPI Master that generates the chip select was designed using logic gates, flipflops and multiplexers.
                 </p>
             </div>
             <!--TEXT FOR ALARM CLOCK-->
-            <div class="content">
-                <h2>Alarm Clock</h2>
-                <p>
-                    -Used PSpice to simulate the circuit
-                    -Programmed the micro controller in Atmel Studio
-                    -Manually soldered in electrical components on PCB board
-                </p>
+            <div class="contenttext">
+                <div>
+                    PSpice was used to design and simulate the circuit. I manually soldered in electrical components on PCB board and programmed the micro controller in Atmel Studio using AVR Assembly. The alarm displays the hour and minutes using digits while the seconds was displayed with 8 LEDs using binary. The clock can be set in military mode and an alarm can be set.
+                </div>
+                <div class="titlecard">
+                    <h2>Alarm Clock</h2>
+                </div>
             </div>
             <!--PIC FOR ALARM CLOCK-->
-            <iv class="content">
-                <img src="LEDclock.jpg" height="450" width="400" />
+            <div class="content">
+                <img src="LEDclock.jpg" />
+            </div>
+
         </div>
-    </div>
-    <footer class="contactlinks">
-        <h2>Link up with me!</h2>
-        <ul>
-            <li><a href="mailto:benjhg13@gmail.com">benjhg13@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/benjaminhuang3/" target="_blank">Linkedin</a></li>
-            <li><a href="https://github.com/benjaminhuang13" target="_blank">Github</a></li>
-            <li><a href="https://www.instagram.com/benjh13/?hl=en" target="_blank">Instagram</a></li>
-        </ul>
-        <p>©2019 Benjamin Huang</p>
-    </footer>
-</body>
+
+        <footer class="contactlinks">
+            <h3>Link up with me!</h3>
+
+            <div class="center">
+                <div id="social-test">
+                    <ul class="social">
+         
+                        <li>
+                            <a href="https://www.linkedin.com/in/benjaminhuang3/" class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/benjaminhuang13" class="fa fa-github" aria-hidden="true"></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/benjh13/?hl=en" class="fa fa-instagram" aria-hidden="true"></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <p>©2019 Benjamin Huang</p>
+        </footer>
+    </body>
 </html>
