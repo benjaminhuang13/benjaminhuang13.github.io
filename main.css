@@ -142,14 +142,15 @@ body {
 */
 
 
-.contenttext a {
+
+
+ a {
     text-decoration: none;
     color: #fafafa;
 }
-
-.contenttext a:hover {
-    color: #66de37;
-}
+     a:hover {
+        color: #66de37;
+    }
 
 img {
    width: 100%;
