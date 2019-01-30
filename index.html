@@ -45,20 +45,27 @@
                 <div class="picofme">
                     <img src="picofme.png" />
                 </div>
-            </div>
+                <div style="text-align:center">
+                    <p>PC to Brandon Wu</p>
+                </div>
+                
+             </div>
 
             <!--TEXT FOR ABT ME-->
             <div class="contenttext">
                 <h1>About Me</h1>
-                <p>Currently a computer engineering student pursuing a computer science minor at Stony Brook University while interning as a IT Technician on campus.</p>
-                <p>My interests lie in embedded systems and cybersecurity. In the future, I will work on IoT devices to make sure users are protected as the influx of IoT in our homes and offices increase.</p>
-                <p>I also love to explore the outdoors, hit the gym and try new cuisines.</p>
-                <a href="about.html">Read more...</a>
+                <div class="details">
+                    <p>Currently a computer engineering student pursuing a computer science minor at Stony Brook University while interning as a IT Technician on campus.</p>
+                    <p>My interests lie in embedded systems and cybersecurity. In the future, I will work on IoT devices to make sure users are protected as the influx of IoT in our homes and offices increase.</p>
+                    <p>I also love to explore the outdoors, hit the gym and try new cuisines.</p>
+                    <a href="about.html">Read more...</a>
+                </div>
             </div>
 
-            <div class="contenttext">
-                <h1>Projects</h1>
+            <div id="projects">
+                <h1>PROJECTS</h1>
             </div>
+
         </div>
 
         <div class="container">
@@ -67,10 +74,10 @@
                 <div class="titlecard">
                     <h2>Personal Website</h2>
                 </div>
-                <p>
+                <div class="details">
                     You're looking at it! I used HTML, CSS and a ton of Googling to build this website from scratch. It's a continuous project as I continue to learn more Web Development skills.
                     So far I spent about 36 hours on this website. Next up is JavaScript!
-                </p>
+                </div>
             </div>
             <!--PICTURE FOR WEBDEV-->
             <div class="content">
@@ -85,18 +92,18 @@
                 <div class="titlecard">
                     <h2>Signal Meter System</h2>
                 </div>
-                <p>
+                <div class="details">
                     Designed a system that measures the precise frequency and period of a waveform using Embedded Microprocessor Systems Design Techniques. The device utilized an ATmega324A Microcontroller and takes in a signal as an input. The device used the ATmega324A's built-in Timer/Counters to determine whether measuring the period or the frequency will be more precise. A LCD DOG display was integrated into the design to display the period, frequency, and duty cycle. The device's software was developed in AVR Assembly language and utilized efficient management of subroutines and Interrupt Service Routines to measure the frequency with a precision of 0.01%.
-                </p>
+                </div>
             </div>
             <!--TEXT FOR MINESWEEPER-->
             <div class="contenttext">
                 <div class="titlecard">
                     <h2>Minesweeper Project</h2>
                 </div>
-                <p>
+                <div class="details">
                     I used concepts such as object-oriented programming, recursion and basic data structures. Recreated the retro game using Java in Eclipse and implemented a GUI using JavaFX
-                </p>
+                </div>
             </div>
             <!--PIC FOR MINESWEEPER-->
             <div class="content">
@@ -111,13 +118,13 @@
                 <div class="titlecard">
                     <h2>DAC Saw-Wave Generator</h2>
                 </div>
-                <p>
+                <div class="details">
                     Designed a system that generated a saw-wave with a Digital-to-Analog Converter using the Direct Digital Synthesis concept. The data path and controller units was implemented with the Field Programmable Gate Array(FPGA) Ice40HX1k on IceStick board and DAC MCP48901. The analog signal is approximated with an 8-bit DAC which communicates with the controller (Master) through a 3-wire link compatible with Serial Peripheral Interface(SPI). The DAC operates as a SPI Slave and the SPI Master that generates the chip select was designed using logic gates, flipflops and multiplexers.
-                </p>
-            </div>
+                </div>
+             </div>
             <!--TEXT FOR ALARM CLOCK-->
             <div class="contenttext">
-                <div>
+                <div class="details">
                     PSpice was used to design and simulate the circuit. I manually soldered in electrical components on PCB board and programmed the micro controller in Atmel Studio using AVR Assembly. The alarm displays the hour and minutes using digits while the seconds was displayed with 8 LEDs using binary. The clock can be set in military mode and an alarm can be set.
                 </div>
                 <div class="titlecard">
@@ -129,7 +136,7 @@
                 <img src="LEDclock.jpg" />
             </div>
 
-        </div>
+         </div>
 
         <footer class="contactlinks">
             <h3>Link up with me!</h3>
@@ -149,6 +156,7 @@
                         <li>
                             <a href="https://www.instagram.com/benjh13/?hl=en" class="fa fa-instagram" aria-hidden="true"></a>
                         </li>
+                        <li></li>
 
                     </ul>
                 </div>
