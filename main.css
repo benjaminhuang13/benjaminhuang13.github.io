@@ -1,6 +1,6 @@
 ﻿
 body {
-    font-family: 'Verdana';
+    font-family: 'Montserrat';
     font-size: 18px;
     color: #fafafa;
     background-repeat: no-repeat;
@@ -11,6 +11,19 @@ body {
     margin: 0px;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('montserrat/Montserrat-Light.otf')
+    format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    src: url("montserrat/Montserrat-Regular.otf")
+    format('opentype');
+    font-weight: bold;
+} 
 
 .navbar {
     background-color: #191919;
@@ -27,13 +40,13 @@ body {
     float: left;
     font-size: 30px;
     margin-top: 5px;
-    font-family: Verdana;
+    font-weight: bold;
+
 }
 
 .navbar a {
     margin-top: 10px;
     float: right;
-    font-family: 'Verdana';
     display: block;
     color: #fafafa;
     text-align: center;
@@ -88,7 +101,6 @@ body {
     color: #fafafa;
     font-family: Courier New, Courier, monospace;
     font-size: 40px;
-    font-weight:bold;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -262,11 +274,11 @@ footer ul li a {
     font-size: 30px;
     margin: auto;
 }
-   
-h2{
+
+h2 {
     color: #fff;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-weight: 100;
+    font-weight: bold;
 }       
 
 .social{
