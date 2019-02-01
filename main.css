@@ -47,7 +47,7 @@ body {
 
 }
 a i {
-    font-size: 23px;
+    font-size: 25px;
 }
 .navbar a {
     margin-top: 10px;
@@ -79,8 +79,8 @@ a i {
 
 .startscroll {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 20px;
+    right: 30px;
     color: #fafafa;
     margin: 0px;
     z-index: 2;
@@ -117,7 +117,7 @@ a i {
 
 
 .container {
-    padding: 90px 10vw 0px 10vw;
+    padding: 0px 10vw 0px 10vw;
     display: flex;
     justify-content: center;
     display: -webkit-box;
@@ -225,12 +225,22 @@ h1 {
     text-align: center;
 }
 #projects {
-    padding: 20px;
     padding-top: 75px;
     margin-top: -75px;
     width: 600px;
-
 }
+.projectheader{
+    padding-top:55px;
+    padding-bottom:0px;
+}
+#aboutmesection {
+    padding: 20px;
+    padding-top: 105px;
+    margin-top: -105px;
+    width: 600px;
+}
+
+
 
 footer {
     clear: both;
