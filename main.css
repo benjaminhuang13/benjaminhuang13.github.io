@@ -1,4 +1,7 @@
 ﻿
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat';
     font-size: 18px;
@@ -43,7 +46,9 @@ body {
     font-weight: bold;
 
 }
-
+a i {
+    font-size: 23px;
+}
 .navbar a {
     margin-top: 10px;
     float: right;
