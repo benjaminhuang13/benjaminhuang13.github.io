@@ -131,7 +131,6 @@ a i {
 }
 
 .container .content {
-    background: #191919;
     flex-wrap: wrap;
     box-sizing: border-box;
     white-space: normal;
@@ -146,7 +145,6 @@ a i {
 }
 
 .container .contenttext {
-    background: #191919;
     width: 50%;
     padding: 3%;
     flex-wrap: wrap;
@@ -230,13 +228,13 @@ h1 {
     width: 600px;
 }
 .projectheader{
-    padding-top:55px;
-    padding-bottom:0px;
+    padding-top:70px;
+    padding-bottom:10px;
 }
 #aboutmesection {
     padding: 20px;
-    padding-top: 105px;
-    margin-top: -105px;
+    padding-top: 90px;
+    margin-top: -90px;
     width: 600px;
 }
 
