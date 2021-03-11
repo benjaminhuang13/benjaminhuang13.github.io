@@ -16,7 +16,6 @@ import Headshotpng from "../images/headshot.png";
 import styled from "styled-components";
 import "../styles/frontpage.css";
 
-import Content from "../styles/frontpagestyles.js";
 
 import Panel from "./panel";
 

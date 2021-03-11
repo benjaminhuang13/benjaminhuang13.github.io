@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
 import "../styles/glitch.scss";
-// import "../styles/glitch2.css";
 import "../styles/radar.css";
 import Pdf from "../docs/Resume_BenjaminHuang.pdf";
 import {
@@ -47,17 +46,6 @@ export default function Frontpanel() {
 
   return (
     <Paneldiv>
-      {/* <ScreenMiddle> */}
-        {/* <div className="overlapdiv"> */}
-        {/* <div class="text">
-            <div class="r">NAVIGATION</div>
-            <div class="g">NAVIGATION</div>
-            <div class="b">NAVIGATION</div>
-          </div> */}
-        {/* <div class="glitch" data-trick="NAVIGATION">
-              NAVIGATION
-            </div> */}
-        {/* <h1>NAVIGATION</h1> */}
         <Iconholder>
           <a
             href="https://www.linkedin.com/in/benjaminhuang3/"
@@ -91,8 +79,6 @@ export default function Frontpanel() {
             <Youtube />
           </a>
         </Iconholder>
-        {/* </div> */}
-        {/* <ScreenText>Scroll to land</ScreenText> */}
 
         {/* <Radar>
           <div>

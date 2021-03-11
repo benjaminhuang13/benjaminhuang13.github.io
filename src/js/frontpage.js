@@ -26,10 +26,6 @@ function Frontpage() {
   return (
     <div className="main">
       <Parallax></Parallax>
-      {/* <div className="name">
-        BEN HUANG &nbsp;
-        <div className="border"></div>
-      </div> */}
       <div className="bodybackground">
         <Scrollzoom></Scrollzoom>
         <CloudFunc></CloudFunc>
@@ -49,8 +45,6 @@ function Frontpage() {
           <Content imgsrc={Stonybrook}></Content>
           <Content text="IT Coordinator at Stony Brook University. Launched and managed new team workflow that improved incident response time by 90%."></Content>
         </Whitebackground>
-
-        {/* <Luanchpad></Luanchpad> */}
       </div>
 
       <div className="footer">
@@ -66,7 +60,6 @@ export default Frontpage;
 
 export const Headshot = styled.div`
   height: auto;
-  /* width: 100px; */
   width: 100%;
   padding-right: 30%;
 `;
@@ -94,7 +87,6 @@ const Whitebackground = styled.div`
   top: 8vw;
   padding: calc(10vh + 150px) 1vw 100px 1vw;
   position: relative;
-  /* background-color: grey; */
   background: linear-gradient(transparent, #f9f9f9 180px);
   z-index: 5;
   display: grid;
@@ -103,7 +95,7 @@ const Whitebackground = styled.div`
   grid-template-columns: minmax(300px, 400px) minmax(300px, 600px);
   /* grid-template-columns: 1fr 1fr; //fraction */
   /* grid-template-columns: 20px repeat(6, 1fr) 20px; */
-  grid-auto-rows: minmax(auto, 300px);
+  grid-auto-rows: minmax(auto, 200px);
 `;
 
 function CloudAll(props) {
@@ -120,18 +112,6 @@ function CloudAll(props) {
       >
         <img className="cloudimg" src={Cloud1} alt="oops monki cant find"></img>
       </CloudDiv>
-
-      {/* <CloudDiv
-        style={{
-          left: "-30%",
-          top: "70%",
-          transform: `translate(${props.offsetY * 0.3}px,-${
-            props.offsetY * 0.7
-          }px)`,
-        }}
-      >
-        <img className="cloudimg" src={Cloud4} alt="oops monki cant find"></img>
-      </CloudDiv> */}
 
       <CloudDiv
         style={{
@@ -297,11 +277,8 @@ function CloudAll(props) {
 export const CloudDiv = styled.div`
   width: 10px;
   height: 10px;
-  /* background-color: black; */
   position: absolute;
   z-index: 4;
-  /* top: 10px; */
-  /* left: 50%; */
   opacity: 1;
   z-index: 5;
 `;
@@ -309,12 +286,9 @@ export const CloudDiv = styled.div`
 export const BgcloudDiv = styled.div`
   width: 10px;
   height: 10px;
-  /* background-color: black; */
   position: absolute;
   z-index: 1;
   opacity: 0.8;
-  /* top: 10px; */
-  /* left: 50%; */
   img {
     width: 1000px;
   }

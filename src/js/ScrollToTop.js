@@ -54,8 +54,3 @@ export default function ScrollToTop() {
     </div>
   );
 }
-
-// const RedBtn = styled.div`
-//   transition: all 400ms ${(props) => (props.show ? "ease-out" : "ease-out")};
-//   transform: translate(${100}px);
-// `;

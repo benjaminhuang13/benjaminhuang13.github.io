@@ -15,50 +15,14 @@ const ScreenGlow = keyframes`
 `;
 
 export const Paneldiv = styled.div`
-  /* height: 13vw; */
   position: relative;
-  /* top: 11%; */
-  /* left: 50%; */
   padding: 40px 0 0 0;
   left: 50%;
   transform: translateX(-50%);
   width: 350px;
-  /* height: 100px; */
-  /* background-color: white; */
-  /* padding: 50px; */
-  /* left: 50%; */
-  /* transform: translateX(-50%); */
   z-index: 5;
-  /* margin: auto; */
-  /* transition: all 1.4s ease-in-out; */
-  /* animation: ${ScreenGlow} 0.5s infinite alternate; */
 `;
 
-// const ScreenGlow = keyframes`
-//  from {
-//   box-shadow: 0 0 4rem .7rem rgb(103, 255, 77, .6);
-//   }
-//   to {
-//     box-shadow: 0 0 4rem 1rem rgb(103, 255, 77), .7;
-//   }
-// `;
-
-export const ScreenMiddle = styled.div`
-  /* position: absolute; */
-  /* width: 100%; */
-  /* height: AUTO; */
-  /* padding-top: 56.25%; */
-  /* top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; */
-  /* width: 100%; */
-  /* background: #86df86; */
-  /* border-radius: 2%; */
-  /* text-align: center; */
-  /* box-shadow: 0 0 5vw 1px #39ff14; */
-  /* border: 0.8vw solid rgba(105, 105, 105); */
-`;
 
 export const Iconholder = styled.div`
   display: flex;
