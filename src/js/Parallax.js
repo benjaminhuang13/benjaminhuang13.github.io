@@ -15,7 +15,8 @@ import ShootingStars from "../styles/effects/shootingstar.js";
 import Headshotpng from "../images/headshot.png";
 import styled from "styled-components";
 import "../styles/frontpage.css";
-
+//import theme
+import Media from "../styles/theme.js";
 
 import Panel from "./panel";
 
@@ -66,23 +67,18 @@ function Midground(props) {
         alt="oopsie monki can't find"
       ></img>
       <AboutMeDiv>
-        <div className="aboutme">
-          <div className="astrodiv">
-            {/* <Astronaut></Astronaut> */}
-            <Headshot>
-              <img
-                className="headshotimg"
-                src={Headshotpng}
-                alt="oops monki cant find"
-              ></img>
-            </Headshot>
-          </div>
-          <AboutMe
-            text="An engineer passionate about cybersecurity, programming, and space exploration. I also
+        <Headshot>
+          <img
+            className="headshotimg"
+            src={Headshotpng}
+            alt="oops monki cant find"
+          ></img>
+        </Headshot>
+        <AboutMe
+          text="An engineer passionate about cybersecurity, programming, and space exploration. I also
               love running, calisthenics, and investing in the stock market. Goals for this year include completing
                the Security+ certification and running a marathon!"
-          ></AboutMe>
-        </div>
+        ></AboutMe>
       </AboutMeDiv>
     </MidgroundDiv>
   );
@@ -103,9 +99,9 @@ function Foreground(props) {
 
 export const Headshot = styled.div`
   height: auto;
-  /* width: 100px; */
-  width: 100%;
-  padding-right: 30%;
+  width: 30vw;
+  min-width: 350px;
+  max-width: 450px;
 `;
 
 export function AboutMe(props) {
@@ -116,23 +112,35 @@ export function AboutMe(props) {
   );
 }
 export const AboutMeDiv = styled.div`
-  float: left;
   position: relative;
-  left: 40%;
-  width: 60%;
-  margin-bottom: 150px;
+  width: 100%;
   top: 100vh;
+  position: relative;
+  z-index: 5;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  ${Media.mobile`
+      grid-template-columns: minmax(300px, 400px);
+      grid-auto-rows: minmax(250px, auto);
+
+   `}
+  ${Media.desktop`
+   grid-template-columns: minmax(300px, 600px) minmax(300px, 600px);
+      grid-auto-rows: minmax(200px, auto);
+      grid-column-gap: 15vw;
+
+   `}
 `;
 export const AboutMeText = styled.div`
   letter-spacing: 1px;
   width: 100%;
-  height: 300px;
-  margin-right: 3%;
   font-family: "lcd_solidregular", sans-serif;
   font-size: 1.1rem;
   color: rgba(0, 255, 0, 0.75);
   line-height: 1.3rem;
   display: flex;
   justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  align-items: center;
 `;

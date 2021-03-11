@@ -15,7 +15,8 @@ import Boeing from "../images/boeing.png";
 import Mufg from "../images/mufg.png";
 import Jobtracking from "../images/jobtracking.png";
 import Stonybrook from "../images/stonybrook.png";
-
+//import theme
+import Media from "../styles/theme.js";
 //add custom components
 import ScrollToTop from "./ScrollToTop.js";
 import Parallax from "./Parallax";
@@ -29,9 +30,6 @@ function Frontpage() {
         <Scrollzoom></Scrollzoom>
         <CloudFunc></CloudFunc>
         <Whitebackground>
-          <div className="redbtndiv">
-            <ScrollToTop />
-          </div>
           <Content imgsrc={Boeing}></Content>
           <Content text="System Security Engineer on the Product Security team at Boeing. In current role, responsible for assessing product risk before it is deployed. In addition, consult with cross disciplinary product owners to mitigate associated risks."></Content>
 
@@ -47,6 +45,7 @@ function Frontpage() {
       </div>
 
       <div className="footer">
+        <ScrollToTop />
         <div className="footertextdiv">
           <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> Benjamin Huang{" "}
           {new Date().getFullYear()}
@@ -84,17 +83,26 @@ const Whitebackground = styled.div`
   width: 100%;
   height: 100%;
   top: 8vw;
-  padding: calc(10vh + 150px) 1vw 100px 1vw;
+  padding: calc(10vh + 150px) 1vw 200px 1vw;
   position: relative;
   background: linear-gradient(transparent, #f9f9f9 180px);
   z-index: 5;
   display: grid;
   justify-content: center;
   padding-left: 30px;
-  grid-template-columns: minmax(300px, 400px) minmax(300px, 600px);
   /* grid-template-columns: 1fr 1fr; //fraction */
   /* grid-template-columns: 20px repeat(6, 1fr) 20px; */
-  grid-auto-rows: minmax(auto, 200px);
+
+  ${Media.mobile`
+      grid-template-columns: minmax(300px, 400px);
+      grid-auto-rows: minmax(250px, auto);
+
+   `}
+  ${Media.desktop`
+   grid-template-columns: minmax(300px, 300px) minmax(300px, 700px);
+      grid-auto-rows: minmax(200px, auto);
+
+   `}
 `;
 
 function CloudAll(props) {

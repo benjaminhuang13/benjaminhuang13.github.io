@@ -3,6 +3,7 @@ import redbtn from "../images/redbtn.png";
 import React, { useEffect, useState } from "react";
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
+import styled from "styled-components";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,15 +43,25 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="scrolltotop">
-      {isVisible && (
-        <div
-          // style={{ transform: "translate(${1000}px)" }}
-          onClick={scrollToTop}
-        >
-          <img src={redbtn} alt="Go into orbit" className="redbtnimage" />
-        </div>
-      )}
-    </div>
+    <Scrolltotop>
+      {/* {isVisible && ( */}
+      <div onClick={scrollToTop}>
+        <img src={redbtn} alt="Go into orbit" className="redbtnimage" />
+      </div>
+      )
+    </Scrolltotop>
   );
 }
+
+const Scrolltotop = styled.div`
+  cursor: pointer;
+  position: relative;
+  width: 2rem;
+  z-index: 5;
+  div:hover {
+    transform: scale(1.05);
+  }
+  img {
+    width: 100%;
+  }
+`;

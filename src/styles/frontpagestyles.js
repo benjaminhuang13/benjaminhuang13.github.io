@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
@@ -38,6 +38,7 @@ export const ContentText = styled.div`
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+  text-align: left;
 `;
 export const ContentImg = styled.img`
   justify-content: center;

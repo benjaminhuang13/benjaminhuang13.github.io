@@ -30,12 +30,12 @@ export default function Frontpanel() {
     }
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -43,41 +43,41 @@ export default function Frontpanel() {
 
   return (
     <Paneldiv>
-        <Iconholder>
-          <a
-            href="https://www.linkedin.com/in/benjaminhuang3/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Linkedin />
-          </a>
-          <a href={Pdf} target="_blank" rel="noreferrer">
-            <Resume />
-          </a>
-          <a
-            href="https://github.com/benjaminhuang13"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Github />
-          </a>
-          <a
-            href="https://www.instagram.com/benyelloo/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Instagram />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCWuNQ9eDfrbNIZBS2nJxBiw"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Youtube />
-          </a>
-        </Iconholder>
+      <Iconholder>
+        <a
+          href="https://www.linkedin.com/in/benjaminhuang3/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Linkedin />
+        </a>
+        <a href={Pdf} target="_blank" rel="noreferrer">
+          <Resume />
+        </a>
+        <a
+          href="https://github.com/benjaminhuang13"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Github />
+        </a>
+        <a
+          href="https://www.instagram.com/benyelloo/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Instagram />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCWuNQ9eDfrbNIZBS2nJxBiw"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Youtube />
+        </a>
+      </Iconholder>
 
-        {/* <Radar>
+      {/* <Radar>
           <div>
             <div class="ringbase ring0"></div>
             <div class="ringbase ring1"></div>

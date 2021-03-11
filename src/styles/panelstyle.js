@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 import { ReactComponent as Githubicon } from "../images/icons/github.svg";
 import { ReactComponent as Instagramicon } from "../images/icons/instagram.svg";
@@ -6,7 +6,7 @@ import { ReactComponent as Linkedinicon } from "../images/icons/linkedin.svg";
 import { ReactComponent as Youtubeicon } from "../images/icons/youtube.svg";
 import { ReactComponent as Resumeicon } from "../images/icons/resume.svg";
 
-// const ScreenGlow = keyframes`  
+// const ScreenGlow = keyframes`
 //     from {
 //       box-shadow: 0 0 100px 0 rgb(135, 211, 124,0.8);   }
 //   to {
@@ -22,7 +22,6 @@ export const Paneldiv = styled.div`
   width: 350px;
   z-index: 5;
 `;
-
 
 export const Iconholder = styled.div`
   display: flex;
