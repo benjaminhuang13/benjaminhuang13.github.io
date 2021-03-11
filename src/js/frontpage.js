@@ -4,14 +4,13 @@ import styled from "styled-components";
 //styles and images
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
-import { Content, Luanchpad } from "../styles/frontpagestyles.js";
+import { Content } from "../styles/frontpagestyles.js";
 import Cloud2 from "../images/clouds/cloud2.png";
 import Cloud1 from "../images/clouds/cloud1.png";
 import Cloud4 from "../images/clouds/cloud4.png";
 import Bgcloud1 from "../images/clouds/bgcloud1.png";
 import Bgcloud2 from "../images/clouds/bgcloud2.png";
 import Bgcloud3 from "../images/clouds/bgcloud3.png";
-import F15 from "../images/f15top.png";
 import Boeing from "../images/boeing.png";
 import Mufg from "../images/mufg.png";
 import Jobtracking from "../images/jobtracking.png";

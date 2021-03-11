@@ -7,14 +7,11 @@ import "../styles/radar.css";
 import Pdf from "../docs/Resume_BenjaminHuang.pdf";
 import {
   Paneldiv,
-  ScreenMiddle,
   Iconholder,
   Linkedin,
   Github,
   Youtube,
   Instagram,
-  Radar,
-  ScreenText,
   Resume,
 } from "../styles/panelstyle.js";
 

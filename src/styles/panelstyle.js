@@ -6,13 +6,13 @@ import { ReactComponent as Linkedinicon } from "../images/icons/linkedin.svg";
 import { ReactComponent as Youtubeicon } from "../images/icons/youtube.svg";
 import { ReactComponent as Resumeicon } from "../images/icons/resume.svg";
 
-const ScreenGlow = keyframes`  
-    from {
-      box-shadow: 0 0 100px 0 rgb(135, 211, 124,0.8);   }
-  to {
-    box-shadow: 0 0 90px 0 rgb(135, 211, 124,0.90);  }
-	}
-`;
+// const ScreenGlow = keyframes`  
+//     from {
+//       box-shadow: 0 0 100px 0 rgb(135, 211, 124,0.8);   }
+//   to {
+//     box-shadow: 0 0 90px 0 rgb(135, 211, 124,0.90);  }
+// 	}
+// `;
 
 export const Paneldiv = styled.div`
   position: relative;

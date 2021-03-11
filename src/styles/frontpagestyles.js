@@ -63,10 +63,11 @@ export const Luanchpad = styled(Launchpadsvg)`
   z-index: 6;
   margin-left: -100px;
 `;
-const Tvflicker = keyframes`
-    from {
-      box-shadow: 0 0 100px 0 rgb(135, 211, 124,0.8);   }
-  to {
-    box-shadow: 0 0 90px 0 rgb(135, 211, 124,0.90);  }
-	}
-`;
+
+// const Tvflicker = keyframes`
+//     from {
+//       box-shadow: 0 0 100px 0 rgb(135, 211, 124,0.8);   }
+//   to {
+//     box-shadow: 0 0 90px 0 rgb(135, 211, 124,0.90);  }
+// 	}
+// `;

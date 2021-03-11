@@ -15,7 +15,7 @@ export default () => {
   const [hideOnScroll, setHideOnScroll] = useState(true);
 
   useScrollPosition(
-    ({ prevPos, currPos }) => {
+    ({  currPos }) => {
       // const isShow = currPos.y < prevPos.y;
       const isShow = currPos.y > -100;
       if (isShow !== hideOnScroll) setHideOnScroll(isShow);

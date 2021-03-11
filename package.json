@@ -2,6 +2,7 @@
   "name": "benjaminhuang13.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://benjaminhuang13.github.io/index.js",
   "resolutions": {
     "styled-components": "^5"
   },
