@@ -1,0 +1,78 @@
+@import "../styles/font/stylesheet.css";
+
+.overlapdiv {
+  font-family: "lcd_solidregular", sans-serif;
+  background-color: #6db16d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 6;
+    background: repeating-linear-gradient(
+      0deg,
+      #111 0px,
+      #111 1px,
+      transparent 2px,
+      transparent 5px
+    );
+    background-size: 100% 5px;
+    animation: lines 2s ease-out infinite;
+    opacity: 0.3;
+    mix-blend-mode: color-burn;
+    pointer-events: none;
+  }
+  .text,
+  .text > * {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+    > * {
+      font-size: 2rem;
+
+      animation: giggle 0.5s ease infinite;
+      mix-blend-mode: difference;
+    }
+    .r {
+      color: rgb(99, 18, 18);
+      left: -0.05vw;
+    }
+    .g {
+      color: rgb(23, 124, 23);
+      animation-delay: -0.67s;
+    }
+    .b {
+      color: rgb(22, 22, 92);
+      animation-delay: -0.33s;
+      left: 0.05vw;
+    }
+  }
+}
+
+@keyframes giggle {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(-0.1vw);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(0.1vw);
+  }
+}
+@keyframes lines {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 30vw;
+  }
+}
