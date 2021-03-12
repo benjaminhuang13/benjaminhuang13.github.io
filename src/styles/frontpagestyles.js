@@ -47,6 +47,7 @@ export const ContentImg = styled.img`
   z-index: 6;
   max-height: 200px;
   max-width: 200px;
+  opacity: 0.85;
 `;
 
 export function Content(props) {

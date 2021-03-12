@@ -37,7 +37,7 @@ function Frontpage() {
           <Content text="Frontend Developer utilizing React, Redux, HTML, and CSS to create a Job Application tracking platform. Currently, in an Accelerator Startup program to launch beta."></Content>
 
           <Content imgsrc={Mufg}></Content>
-          <Content text="Technology Solutions Analyst at MUFG Bank Internal Audit. Created and troubleshooted tools to improve internal audit processes."></Content>
+          <Content text="Technology Solutions Analyst at MUFG Bank Internal Audit. Leveraged data to develop tools that improve internal audit processes."></Content>
 
           <Content imgsrc={Stonybrook}></Content>
           <Content text="IT Coordinator at Stony Brook University. Launched and managed new team workflow that improved incident response time by 90%."></Content>
@@ -82,26 +82,24 @@ function CloudFunc(props) {
 const Whitebackground = styled.div`
   width: 100%;
   height: 100%;
-  top: 8vw;
-  padding: calc(10vh + 150px) 1vw 200px 1vw;
   position: relative;
   background: linear-gradient(transparent, #f9f9f9 180px);
   z-index: 5;
   display: grid;
   justify-content: center;
   padding-left: 30px;
-  /* grid-template-columns: 1fr 1fr; //fraction */
-  /* grid-template-columns: 20px repeat(6, 1fr) 20px; */
-
   ${Media.mobile`
       grid-template-columns: minmax(300px, 400px);
       grid-auto-rows: minmax(250px, auto);
+      top: 180px;
+      padding: 200px 1vw 200px 1vw;
 
    `}
   ${Media.desktop`
    grid-template-columns: minmax(300px, 300px) minmax(300px, 700px);
       grid-auto-rows: minmax(200px, auto);
-
+      padding: 200px 1vw 200px 1vw;
+      top: 20px;
    `}
 `;
 

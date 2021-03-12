@@ -25,7 +25,7 @@ export const MidgroundDiv = styled.div`
 `;
 
 export const ForegroundDiv = styled.div`
-  top: 25%;
+  top: 30%;
   z-index: 4;
   position: relative;
   width: 100vw;

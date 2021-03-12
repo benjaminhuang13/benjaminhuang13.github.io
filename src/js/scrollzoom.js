@@ -11,7 +11,7 @@ import React, {
 import { ReactComponent as Rocketsvg } from "../images/icons/rocket.svg";
 import { ReactComponent as Rocketwindowsvg } from "../images/icons/window.svg";
 //import theme
-import Media from "../styles/theme.js";
+// import Media from "../styles/theme.js";
 
 export default () => {
   const [hideOnScroll, setHideOnScroll] = useState(true);
@@ -94,14 +94,19 @@ const Rocket = styled(Rocketsvg)`
 
 const Rocketwindow = styled(Rocketwindowsvg)`
   width: auto;
-  height: 4.2vh;
+  /* height: 4.2vh; */
+  height: 40.2vh;
+
   background: black;
   border-radius: 50%;
   position: fixed;
   z-index: 2;
   opacity: 0;
-  top: 41.9vh;
-  transition: all 1000ms ${(props) => (props.show ? "ease-out" : "ease-out")};
+  top: 21.9vh;
+  transition: all 600ms ${(props) => (props.show ? "ease-out" : "ease-out")};
+  transform: ${(props) => (props.show ? "none" : " translate(0vw, 38vh) ")};
+  /* transition: all 1500ms ${(props) =>
+    props.show ? "ease-out" : "ease-out"};
 
-  opacity: ${(props) => (props.show ? null : 1)};
+  opacity: ${(props) => (props.show ? null : 1)}; */
 `;

@@ -91,7 +91,6 @@ function Foreground(props) {
         BEN HUANG &nbsp;
         <div className="border"></div>
       </div>
-
       <Panel></Panel>
     </ForegroundDiv>
   );
