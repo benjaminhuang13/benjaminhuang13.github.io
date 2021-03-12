@@ -31,16 +31,16 @@ function Frontpage() {
         <CloudFunc></CloudFunc>
         <Whitebackground>
           <Content imgsrc={Boeing}></Content>
-          <Content text="System Security Engineer on the Product Security team at Boeing. In current role, responsible for assessing product risk before it is deployed. In addition, consult with cross disciplinary product owners to mitigate associated risks."></Content>
+          <Content text="System Security Engineer, Product Security: In current role, responsible for assessing product risk before it is deployed. In addition, consult with cross disciplinary product owners to mitigate associated risks."></Content>
 
           <Content imgsrc={Jobtracking}></Content>
-          <Content text="Frontend Developer utilizing React, Redux, HTML, and CSS to create a Job Application tracking platform. Currently, in an Accelerator Startup program to launch beta."></Content>
+          <Content text="Frontend Developer: Utilizing React, Redux, HTML, and CSS to create a job application tracking platform. Currently, in an Accelerator Startup program to launch beta."></Content>
 
           <Content imgsrc={Mufg}></Content>
-          <Content text="Technology Solutions Analyst at MUFG Bank Internal Audit. Leveraged data to develop tools that improve internal audit processes."></Content>
+          <Content text="Technology Solutions Analyst: Leveraged data to develop tools that improve internal audit processes."></Content>
 
           <Content imgsrc={Stonybrook}></Content>
-          <Content text="IT Coordinator at Stony Brook University. Launched and managed new team workflow that improved incident response time by 90%."></Content>
+          <Content text="IT Coordinator: Launched and managed new team workflow that improved incident response time by 90%."></Content>
         </Whitebackground>
       </div>
 
