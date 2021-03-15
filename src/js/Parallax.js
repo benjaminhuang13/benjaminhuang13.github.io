@@ -45,9 +45,7 @@ export default function App() {
 
 function Background(props) {
   return (
-    <BackgroundDiv
-      style={{ transform: `translateY(-${props.offsetY * 0.1}px)` }}
-    >
+    <BackgroundDiv style={{ transform: `translateY(-${props.offsetY * 0}px)` }}>
       <Twinkle></Twinkle>
       <ShootingStars></ShootingStars>
     </BackgroundDiv>
