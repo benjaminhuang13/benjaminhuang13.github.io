@@ -35,10 +35,14 @@ export const ContentText = styled.div`
   font-size: 1.1rem;
   color: rgb(49, 39, 39);
   z-index: 6;
-  display: flex;
+  /* display: flex; */
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   text-align: left;
+  padding-top: 10%;
+  h3 {
+    margin: 0;
+  }
 `;
 export const ContentImg = styled.img`
   justify-content: center;
@@ -53,6 +57,7 @@ export const ContentImg = styled.img`
 export function Content(props) {
   return (
     <ContentText>
+      <h3>{props.heading}</h3>
       {props.text} <ContentImg src={props.imgsrc} alt=""></ContentImg>
     </ContentText>
   );
