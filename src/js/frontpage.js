@@ -30,6 +30,8 @@ function Frontpage() {
         <Scrollzoom></Scrollzoom>
         <CloudFunc></CloudFunc>
         <Whitebackground>
+          <Gridbackground></Gridbackground>
+
           <Content imgsrc={Boeing}></Content>
           <Content
             heading="System Security Engineer, Product Security"
@@ -113,6 +115,16 @@ const Whitebackground = styled.div`
       padding: 200px 1vw 200px 1vw;
       top: 20px;
    `}
+`;
+
+const Gridbackground = styled.div`
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #a9a9a9 1px, rgba(0, 0, 0, 0) 1px);
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: 100%;
 `;
 
 function CloudAll(props) {
