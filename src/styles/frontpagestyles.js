@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Media from "../styles/theme.js";
 
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
@@ -45,7 +46,7 @@ export const ContentText = styled.div`
   }
 `;
 export const ContentImg = styled.img`
-  justify-content: center;
+  /* justify-content: center; */
   height: auto;
   width: auto;
   z-index: 6;
@@ -54,14 +55,74 @@ export const ContentImg = styled.img`
   opacity: 0.85;
 `;
 
+export const ContentCertImg = styled.img`
+  /* justify-content: center; */
+  height: auto;
+  width: auto;
+  z-index: 6;
+  max-height: 120px;
+  max-width: 120px;
+  opacity: 0.85;
+  padding: 0px 20px 0px 20px;
+`;
+
 export function Content(props) {
   return (
     <ContentText>
       <h3>{props.heading}</h3>
-      {props.text} <ContentImg src={props.imgsrc} alt=""></ContentImg>
+      {props.text}
+      <ContentImg src={props.imgsrc} alt="" />
+      {/* <ContentBkgdImg src={props.imgsrc2} alt="" /> */}
     </ContentText>
   );
 }
+
+export function ContentCert(props) {
+  return (
+    <ContentCentered>
+      <h2>{props.heading}</h2>
+      <div>
+        <ContentCertImg src={props.imgsrc1} alt="" />
+        <ContentCertImg src={props.imgsrc2} alt="" />
+      </div>
+    </ContentCentered>
+  );
+}
+
+export const ContentCentered = styled.div`
+  font-family: "lcd_solidregular", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding-bottom: 100px;
+  /* grid-column-start: 1;
+  grid-column-end: 2; */
+  /* display: grid; */
+  width: 100%;
+  font-size: 1.1rem;
+  color: rgb(49, 39, 39);
+  z-index: 6;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* text-align: center; */
+  /* padding-top: 15px; */
+  /* margin-left: 0; */
+  ${Media.mobile`
+      padding-bottom: 200px;
+  `}
+`;
+
+export const ContentHeading = styled.div`
+  font-family: "lcd_solidregular", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding-top: 250px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 1.9rem;
+  color: rgb(49, 39, 39);
+  z-index: 6;
+`;
 
 export const Luanchpad = styled(Launchpadsvg)`
   width: 500px;

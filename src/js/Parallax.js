@@ -73,9 +73,10 @@ function Midground(props) {
           ></img>
         </Headshot>
         <AboutMe
-          text="An engineer passionate about cybersecurity, programming, and space exploration. I also
-              love running, calisthenics, and investing in the stock market. Goals for this year include completing
-               the Security+ certification and running a marathon!"
+          text="An engineer passionate about cyber security, programming, and space exploration. 
+              I enjoy learning about cyber security because it is ever evolving and requires collaboration and out-of-the-box thinking to successfully protect our systems.
+              I also love running, calisthenics, video games, and investing in the stock market. 
+              A few goals for this year include completing the Network+ certification and running a marathon!"
         ></AboutMe>
       </AboutMeDiv>
     </MidgroundDiv>

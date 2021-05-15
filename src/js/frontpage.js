@@ -4,7 +4,11 @@ import styled from "styled-components";
 //styles and images
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
-import { Content } from "../styles/frontpagestyles.js";
+import {
+  Content,
+  ContentCert,
+  ContentHeading,
+} from "../styles/frontpagestyles.js";
 import Cloud2 from "../images/clouds/cloud2.png";
 import Cloud1 from "../images/clouds/cloud1.png";
 import Cloud4 from "../images/clouds/cloud4.png";
@@ -15,6 +19,9 @@ import Boeing from "../images/boeing.png";
 import Mufg from "../images/mufg.png";
 import Jobtracking from "../images/jobtracking.png";
 import Stonybrook from "../images/stonybrook.png";
+import F15drawing from "../images/f15drawing3.png";
+import awsccp from "../images/logo/awsccp.png";
+import secplus from "../images/logo/secplus.png";
 //import theme
 import Media from "../styles/theme.js";
 //add custom components
@@ -30,31 +37,37 @@ function Frontpage() {
         <Scrollzoom></Scrollzoom>
         <CloudFunc></CloudFunc>
         <Whitebackground>
-          <Gridbackground></Gridbackground>
-
-          <Content imgsrc={Boeing}></Content>
-          <Content
-            heading="System Security Engineer, Product Security"
-            text="Responsible for assessing product risk before it is deployed. In addition, consult with cross disciplinary product owners to mitigate associated risks."
-          ></Content>
-
-          <Content imgsrc={Jobtracking}></Content>
-          <Content
-            heading="Frontend Developer"
-            text="Utilizing React, Redux, HTML, and CSS to create a job application tracking platform. Currently, in an Accelerator Startup program to launch beta."
-          ></Content>
-
-          <Content imgsrc={Mufg}></Content>
-          <Content
-            heading="Technology Solutions Analyst"
-            text="Leveraged data to develop tools that improve internal audit processes."
-          ></Content>
-
-          <Content imgsrc={Stonybrook}></Content>
-          <Content
-            heading="IT Coordinator"
-            text="Launched and managed new team workflow that improved incident response time by 90%."
-          ></Content>
+          <ContentHeading heading="Work Experience">
+            Work Experience
+          </ContentHeading>
+          <Gridbackground> </Gridbackground>
+          <WorkExpDiv>
+            <Content imgsrc={Boeing} /*imgsrc2={F15drawing}*/></Content>
+            <Content
+              heading="System Security Engineer, Product Security"
+              text="Responsible for assessing and mitigating product risk throughout development by collaborating with in-house developers and third party suppliers with a focus on software assurance. Worked on the F-15 and T-7A aircrafts and received 3 pride awards to recognize efforts."
+            ></Content>
+            <Content imgsrc={Jobtracking}></Content>
+            <Content
+              heading="Frontend Developer"
+              text="Utilizing React, Redux, HTML, and CSS to create a job application tracking platform."
+            ></Content>
+            <Content imgsrc={Mufg}></Content>
+            <Content
+              heading="Technology Solutions Analyst"
+              text="Leveraged data to develop tools that improve internal audit processes such as QA Checks and Issue Ticket Management. Queried data from DataMart using SQL and visualized data using Tabluea to generate performance reports."
+            ></Content>
+            <Content imgsrc={Stonybrook}></Content>
+            <Content
+              heading="IT Coordinator"
+              text="Launched and managed new team workflow that improved response time by 90%."
+            ></Content>
+          </WorkExpDiv>
+          <ContentCert
+            heading="Certifications"
+            imgsrc1={secplus}
+            imgsrc2={awsccp}
+          ></ContentCert>
         </Whitebackground>
       </div>
 
@@ -99,32 +112,44 @@ const Whitebackground = styled.div`
   position: relative;
   background: linear-gradient(transparent, #f9f9f9 180px);
   z-index: 5;
-  display: grid;
-  justify-content: center;
-  padding-left: 30px;
-  ${Media.mobile`
-      grid-template-columns: minmax(300px, 400px);
-      grid-auto-rows: minmax(250px, auto);
-      top: 180px;
-      padding: 200px 1vw 200px 1vw;
+  top: 150px;
 
-   `}
-  ${Media.desktop`
-   grid-template-columns: minmax(300px, 300px) minmax(300px, 700px);
-      grid-auto-rows: minmax(200px, auto);
-      padding: 200px 1vw 200px 1vw;
-      top: 20px;
-   `}
+  /* display: grid; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+
+  /* padding-left: 30px; */
 `;
 
 const Gridbackground = styled.div`
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #a9a9a9 1px, rgba(0, 0, 0, 0) 1px);
   position: absolute;
-  top: 200px;
-  left: 0;
+  /* left: 0; */
+  top: 100px;
   width: 100%;
   height: 100%;
+  z-index: 5;
+`;
+
+const WorkExpDiv = styled.div`
+  z-index: 6;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+  ${Media.mobile`
+    grid-template-columns: minmax(300px, 400px);
+    grid-auto-rows: minmax(250px, auto);
+    /* top: 10px; */
+    padding: 00px 1vw 0px 1vw;
+  `}
+  ${Media.desktop`
+    grid-template-columns: minmax(300px, 300px) minmax(300px, 700px);
+    grid-auto-rows: minmax(200px, auto);
+    padding: 0px 1vw 0px 1vw;
+    /* top: 80px; */
+  `}
 `;
 
 function CloudAll(props) {
