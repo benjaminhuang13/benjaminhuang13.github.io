@@ -41,6 +41,10 @@ export const ContentText = styled.div`
   align-items: center; /* align vertical */
   text-align: left;
   padding-top: 10%;
+  ${Media.mobile`
+    padding: 10px 20px 0px 20px;
+  `}
+
   h3 {
     margin: 0;
   }

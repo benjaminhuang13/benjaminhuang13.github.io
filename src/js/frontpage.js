@@ -142,12 +142,12 @@ const WorkExpDiv = styled.div`
     grid-template-columns: minmax(300px, 400px);
     grid-auto-rows: minmax(250px, auto);
     /* top: 10px; */
-    padding: 00px 1vw 0px 1vw;
+    padding: 10px 1vw 0px 1vw;
   `}
   ${Media.desktop`
     grid-template-columns: minmax(300px, 300px) minmax(300px, 700px);
     grid-auto-rows: minmax(200px, auto);
-    padding: 0px 1vw 0px 1vw;
+    padding: 10px 1vw 0px 1vw;
     /* top: 80px; */
   `}
 `;
@@ -282,6 +282,80 @@ function CloudAll(props) {
         style={{
           left: "-50%",
           top: "60%",
+          transform: `translate(${props.offsetY * 0.3}px,-${
+            props.offsetY * 0.7
+          }px)`,
+        }}
+      >
+        <img className="cloudimg" src={Cloud1} alt="oops monki cant find"></img>
+      </CloudDiv>
+
+      {/* Fourth level */}
+
+      <CloudDiv
+        style={{
+          left: "10%",
+          top: "70%",
+          transform: `translate(${props.offsetY * 0.3}px,-${
+            props.offsetY * 0.7
+          }px)`,
+        }}
+      >
+        <img className="cloudimg" src={Cloud1} alt="oops monki cant find"></img>
+      </CloudDiv>
+
+      <CloudDiv
+        style={{
+          left: "-60%",
+          top: "80%",
+          transform: `translate(${props.offsetY * 0.3}px,-${
+            props.offsetY * 0.7
+          }px)`,
+        }}
+      >
+        <img className="cloudimg" src={Cloud4} alt="oops monki cant find"></img>
+      </CloudDiv>
+
+      <CloudDiv
+        style={{
+          left: "30%",
+          top: "90%",
+          transform: `translate(${props.offsetY * 0.3}px,-${
+            props.offsetY * 0.7
+          }px)`,
+        }}
+      >
+        <img className="cloudimg" src={Cloud2} alt="oops monki cant find"></img>
+      </CloudDiv>
+
+      <CloudDiv
+        style={{
+          left: "-50%",
+          top: "80%",
+          transform: `translate(${props.offsetY * 0.3}px,-${
+            props.offsetY * 0.7
+          }px)`,
+        }}
+      >
+        <img className="cloudimg" src={Cloud1} alt="oops monki cant find"></img>
+      </CloudDiv>
+
+      <CloudDiv
+        style={{
+          left: "10%",
+          top: "70%",
+          transform: `translate(${props.offsetY * 0.3}px,-${
+            props.offsetY * 0.7
+          }px)`,
+        }}
+      >
+        <img className="cloudimg" src={Cloud2} alt="oops monki cant find"></img>
+      </CloudDiv>
+
+      <CloudDiv
+        style={{
+          left: "-20%",
+          top: "80%",
           transform: `translate(${props.offsetY * 0.3}px,-${
             props.offsetY * 0.7
           }px)`,

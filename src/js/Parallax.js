@@ -75,8 +75,8 @@ function Midground(props) {
         <AboutMe
           text="An engineer passionate about cyber security, programming, and space exploration. 
               I enjoy learning about cyber security because it is ever evolving and requires collaboration and out-of-the-box thinking to successfully protect our systems.
-              I also love running, calisthenics, video games, and investing in the stock market. 
-              A few goals for this year include completing the Network+ certification and running a marathon!"
+              I also love running, calisthenics, juggling, painting, dancingg, video games, YouTube, and investing in the stock market. 
+              A few goals for this year include completing the CCSP and CSSIP Certification and running a marathon!"
         ></AboutMe>
       </AboutMeDiv>
     </MidgroundDiv>
@@ -133,7 +133,8 @@ export const AboutMeDiv = styled.div`
 `;
 export const AboutMeText = styled.div`
   letter-spacing: 1px;
-  width: 100%;
+  width: 90%;
+  padding-top: 10px;
   font-family: "lcd_solidregular", sans-serif;
   font-size: 1.1rem;
   color: rgba(0, 255, 0, 0.75);
@@ -141,4 +142,7 @@ export const AboutMeText = styled.div`
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
+  ${Media.mobile`
+    padding-top: 50px;
+  `}
 `;
