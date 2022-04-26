@@ -44,7 +44,7 @@ function Frontpage() {
           <WorkExpDiv>
             <Content imgsrc={Boeing} /*imgsrc2={F15drawing}*/></Content>
             <Content
-              heading="System Security Engineer, Product Security"
+              heading="Product Security Engineer"
               text="Responsible for assessing and mitigating product risk throughout development by collaborating with in-house developers and third party suppliers with a focus on software assurance."
             ></Content>
             <Content imgsrc={Jobtracking}></Content>
