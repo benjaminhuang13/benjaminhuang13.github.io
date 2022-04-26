@@ -45,7 +45,7 @@ function Frontpage() {
             <Content imgsrc={Boeing} /*imgsrc2={F15drawing}*/></Content>
             <Content
               heading="System Security Engineer, Product Security"
-              text="Responsible for assessing and mitigating product risk throughout development by collaborating with in-house developers and third party suppliers with a focus on software assurance. Worked on the F-15 and T-7A aircrafts and received 3 pride awards to recognize efforts."
+              text="Responsible for assessing and mitigating product risk throughout development by collaborating with in-house developers and third party suppliers with a focus on software assurance."
             ></Content>
             <Content imgsrc={Jobtracking}></Content>
             <Content
