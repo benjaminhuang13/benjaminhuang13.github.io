@@ -8,6 +8,7 @@ import {
   Content,
   ContentCert,
   ContentHeading,
+  ContentProjects,
 } from "../styles/frontpagestyles.js";
 import Cloud2 from "../images/clouds/cloud2.png";
 import Cloud1 from "../images/clouds/cloud1.png";
@@ -22,6 +23,8 @@ import Stonybrook from "../images/stonybrook.png";
 import F15drawing from "../images/f15drawing3.png";
 import awsccp from "../images/logo/awsccp.png";
 import secplus from "../images/logo/secplus.png";
+import chessappimg from "../images/chessappimg.svg";
+
 //import theme
 import Media from "../styles/theme.js";
 //add custom components
@@ -68,6 +71,10 @@ function Frontpage() {
             imgsrc1={secplus}
             imgsrc2={awsccp}
           ></ContentCert>
+          <ContentProjects
+            heading="Projects"
+            imgsrc1={chessappimg}
+          ></ContentProjects>
         </Whitebackground>
       </div>
 
@@ -111,7 +118,7 @@ const Whitebackground = styled.div`
   height: 100%;
   position: relative;
   background: linear-gradient(transparent, #f9f9f9 180px);
-  z-index: 5;
+  z-index: 4;
   top: 150px;
 
   /* display: grid; */
@@ -408,7 +415,7 @@ export const CloudDiv = styled.div`
   position: absolute;
   z-index: 4;
   opacity: 1;
-  z-index: 5;
+  /* z-index: 5; */
 `;
 
 export const BgcloudDiv = styled.div`

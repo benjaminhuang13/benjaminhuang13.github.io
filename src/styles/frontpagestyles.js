@@ -53,7 +53,7 @@ export const ContentImg = styled.img`
   /* justify-content: center; */
   height: auto;
   width: auto;
-  z-index: 6;
+  z-index: 7;
   max-height: 200px;
   max-width: 200px;
   opacity: 0.85;
@@ -63,7 +63,7 @@ export const ContentCertImg = styled.img`
   /* justify-content: center; */
   height: auto;
   width: auto;
-  z-index: 6;
+  z-index: 7;
   max-height: 120px;
   max-width: 120px;
   opacity: 0.85;
@@ -93,18 +93,30 @@ export function ContentCert(props) {
   );
 }
 
+export function ContentProjects(props) {
+  return (
+    <ProjectContentCentered>
+      <h2>{props.heading}</h2>
+      <a href="https://benjaminhuang13.github.io/chess-app/">
+        <ContentCertImg src={props.imgsrc1} alt="React Chess App" />
+      </a>
+    </ProjectContentCentered>
+  );
+}
+
 export const ContentCentered = styled.div`
+  position: relative;
   font-family: "lcd_solidregular", sans-serif;
   letter-spacing: 1px;
   line-height: 1.4;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   /* grid-column-start: 1;
   grid-column-end: 2; */
   /* display: grid; */
   width: 100%;
   font-size: 1.1rem;
   color: rgb(49, 39, 39);
-  z-index: 6;
+  z-index: 7;
   /* display: flex; */
   /* justify-content: center; */
   /* align-content: center; */
@@ -112,11 +124,28 @@ export const ContentCentered = styled.div`
   /* padding-top: 15px; */
   /* margin-left: 0; */
   ${Media.mobile`
+      padding-bottom: 50px;
+  `}
+`;
+
+export const ProjectContentCentered = styled.div`
+  position: relative;
+  font-family: "lcd_solidregular", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding-bottom: 10px;
+
+  width: 100%;
+  font-size: 1.1rem;
+  color: rgb(49, 39, 39);
+  z-index: 7;
+  ${Media.mobile`
       padding-bottom: 200px;
   `}
 `;
 
 export const ContentHeading = styled.div`
+  position: relative;
   font-family: "lcd_solidregular", sans-serif;
   letter-spacing: 1px;
   line-height: 1.4;
