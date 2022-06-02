@@ -111,7 +111,7 @@ export function ContentProjects(props) {
       <a href="https://benjaminhuang13.github.io/chess-app/">
         <ContentProjImg src={props.imgsrc1} alt="React Chess App" />
       </a>
-      <a href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal/blob/main/google_cal_event.png">
+      <a href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal">
         <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
       </a>
     </ProjectContentCentered>
