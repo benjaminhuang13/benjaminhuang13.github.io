@@ -24,6 +24,7 @@ import F15drawing from "../images/f15drawing3.png";
 import awsccp from "../images/logo/awsccp.png";
 import secplus from "../images/logo/secplus.png";
 import chessappimg from "../images/chessappimg.svg";
+import SNKRappimg from "../images/SNKRappimg.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -74,6 +75,7 @@ function Frontpage() {
           <ContentProjects
             heading="Projects"
             imgsrc1={chessappimg}
+            imgsrc2={SNKRappimg}
           ></ContentProjects>
         </Whitebackground>
       </div>

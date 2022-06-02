@@ -70,6 +70,17 @@ export const ContentCertImg = styled.img`
   padding: 0px 20px 0px 20px;
 `;
 
+export const ContentProjImg = styled.img`
+  /* justify-content: center; */
+  height: 80px;
+  width: auto;
+  z-index: 7;
+  max-height: 120px;
+  max-width: 120px;
+  opacity: 0.85;
+  padding: 0px 20px 0px 20px;
+`;
+
 export function Content(props) {
   return (
     <ContentText>
@@ -98,7 +109,10 @@ export function ContentProjects(props) {
     <ProjectContentCentered>
       <h2>{props.heading}</h2>
       <a href="https://benjaminhuang13.github.io/chess-app/">
-        <ContentCertImg src={props.imgsrc1} alt="React Chess App" />
+        <ContentProjImg src={props.imgsrc1} alt="React Chess App" />
+      </a>
+      <a href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal/blob/main/google_cal_event.png">
+        <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
       </a>
     </ProjectContentCentered>
   );
