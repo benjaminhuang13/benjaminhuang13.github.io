@@ -5,6 +5,7 @@ import { ReactComponent as Instagramicon } from "../images/icons/instagram.svg";
 import { ReactComponent as Linkedinicon } from "../images/icons/linkedin.svg";
 import { ReactComponent as Youtubeicon } from "../images/icons/youtube.svg";
 import { ReactComponent as Resumeicon } from "../images/icons/resume.svg";
+import { ReactComponent as Twittericon } from "../images/icons/twitter.svg";
 
 // const ScreenGlow = keyframes`
 //     from {
@@ -90,6 +91,18 @@ export const Youtube = styled(Youtubeicon)`
 `;
 
 export const Instagram = styled(Instagramicon)`
+  height: auto;
+  width: 100%;
+  fill: green;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    fill: rgba(0, 255, 0, 0.75);
+    transform: scale(1.04);
+  }
+`;
+
+export const Twitter = styled(Twittericon)`
   height: auto;
   width: 100%;
   fill: green;

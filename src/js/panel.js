@@ -13,6 +13,7 @@ import {
   Youtube,
   Instagram,
   Resume,
+  Twitter,
 } from "../styles/panelstyle.js";
 
 //inspo: https://yellowimages.com/stock/control-panels-spaceship-59697
@@ -74,6 +75,13 @@ export default function Frontpanel() {
           rel="noreferrer"
         >
           <Youtube />
+        </a>
+        <a
+          href="https://twitter.com/employedcats"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Twitter />
         </a>
       </Iconholder>
 
