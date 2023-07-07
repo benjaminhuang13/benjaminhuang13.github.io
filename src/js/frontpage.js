@@ -28,6 +28,7 @@ import CISSP from "../images/logo/CISSP.png";
 import chessappimg from "../images/chessappimg.svg";
 import SNKRappimg from "../images/SNKRappimg.png";
 import cattwitter from "../images/cattwitter.png";
+import vulnreport from "../images/vuln_report.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -64,7 +65,8 @@ function Frontpage() {
             heading="Projects"
             imgsrc1={cattwitter}
             imgsrc2={SNKRappimg}
-            imgsrc3={chessappimg}
+            imgsrc3={vulnreport}
+            imgsrc4={chessappimg}
           ></ContentProjects>
         </Whitebackground>
       </div>
