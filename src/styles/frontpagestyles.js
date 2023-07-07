@@ -95,6 +95,11 @@ export const ContentProjImg = styled.img`
   max-width: 120px;
   opacity: 0.85;
   padding: 0px 20px 0px 20px;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
 `;
 
 export function Content(props) {
