@@ -20,7 +20,7 @@ export const Paneldiv = styled.div`
   padding: 40px 0 0 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 350px;
+  width: 200px;
   z-index: 5;
 `;
 
@@ -32,7 +32,7 @@ export const Iconholder = styled.div`
   /* margin: 15% 5% 0 5%; */
   width: auto;
   a {
-    width: 15%;
+    width: 25%;
     /* z-index: 4; */
     display: flex;
     justify-content: center;

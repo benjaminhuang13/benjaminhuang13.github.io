@@ -70,6 +70,22 @@ export const ContentCertImg = styled.img`
   padding: 0px 20px 0px 20px;
 `;
 
+export const ContentCertImgLoading = styled.img`
+  /* justify-content: center; */
+  height: auto;
+  width: auto;
+  z-index: 7;
+  max-height: 120px;
+  max-width: 120px;
+  opacity: 0.35;
+  padding: 0px 20px 0px 20px;
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation-timing-function: cubic-bezier(0.2, 0, 0.2, 0);
+  -webkit-animation-duration: 2s;
+`;
+
 export const ContentProjImg = styled.img`
   /* justify-content: center; */
   height: 80px;
@@ -91,7 +107,18 @@ export function Content(props) {
     </ContentText>
   );
 }
-
+export function ContentWorkExp(props) {
+  return (
+    <ContentCentered>
+      <h2>{props.heading}</h2>
+      <div>
+        <ContentCertImg src={props.imgsrc1} alt="" />
+        <ContentCertImg src={props.imgsrc2} alt="" />
+        <ContentCertImg src={props.imgsrc3} alt="" />
+      </div>
+    </ContentCentered>
+  );
+}
 export function ContentCert(props) {
   return (
     <ContentCentered>
@@ -99,6 +126,8 @@ export function ContentCert(props) {
       <div>
         <ContentCertImg src={props.imgsrc1} alt="" />
         <ContentCertImg src={props.imgsrc2} alt="" />
+        <ContentCertImgLoading src={props.imgsrc3} alt="" />
+        <ContentCertImgLoading src={props.imgsrc4} alt="" />
       </div>
     </ContentCentered>
   );

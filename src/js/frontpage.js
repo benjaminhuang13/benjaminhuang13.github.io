@@ -9,6 +9,7 @@ import {
   ContentCert,
   ContentHeading,
   ContentProjects,
+  ContentWorkExp,
 } from "../styles/frontpagestyles.js";
 import Cloud2 from "../images/clouds/cloud2.png";
 import Cloud1 from "../images/clouds/cloud1.png";
@@ -18,11 +19,12 @@ import Bgcloud2 from "../images/clouds/bgcloud2.png";
 import Bgcloud3 from "../images/clouds/bgcloud3.png";
 import Boeing from "../images/boeing.png";
 import Mufg from "../images/mufg.png";
-import Jobtracking from "../images/jobtracking.png";
 import Stonybrook from "../images/stonybrook.png";
 import F15drawing from "../images/f15drawing3.png";
 import awsccp from "../images/logo/awsccp.png";
 import secplus from "../images/logo/secplus.png";
+import awssecurity from "../images/logo/awssecurity.png";
+import CISSP from "../images/logo/CISSP.png";
 import chessappimg from "../images/chessappimg.svg";
 import SNKRappimg from "../images/SNKRappimg.png";
 
@@ -45,32 +47,17 @@ function Frontpage() {
             Work Experience
           </ContentHeading>
           <Gridbackground> </Gridbackground>
-          <WorkExpDiv>
-            <Content imgsrc={Boeing} /*imgsrc2={F15drawing}*/></Content>
-            <Content
-              heading="Product Security Engineer"
-              text="Responsible for assessing and mitigating product risk throughout development by collaborating with in-house developers and third party suppliers with a focus on software assurance."
-            ></Content>
-            <Content imgsrc={Jobtracking}></Content>
-            <Content
-              heading="Frontend Developer"
-              text="Utilizing React, Redux, HTML, and CSS to create a job application tracking platform."
-            ></Content>
-            <Content imgsrc={Mufg}></Content>
-            <Content
-              heading="Technology Solutions Analyst"
-              text="Leveraged data to develop tools that improve internal audit processes such as QA Checks and Issue Ticket Management. Queried data from DataMart using SQL and visualized data using Tabluea to generate performance reports."
-            ></Content>
-            <Content imgsrc={Stonybrook}></Content>
-            <Content
-              heading="IT Coordinator"
-              text="Launched and managed new team workflow that improved response time by 90%."
-            ></Content>
-          </WorkExpDiv>
+          <ContentWorkExp
+            imgsrc1={Boeing}
+            imgsrc2={Mufg}
+            imgsrc3={Stonybrook}
+          ></ContentWorkExp>
           <ContentCert
             heading="Certifications"
             imgsrc1={secplus}
             imgsrc2={awsccp}
+            imgsrc3={awssecurity}
+            imgsrc4={CISSP}
           ></ContentCert>
           <ContentProjects
             heading="Projects"
@@ -142,23 +129,10 @@ const Gridbackground = styled.div`
 `;
 
 const WorkExpDiv = styled.div`
-  z-index: 6;
+  z-index: 60;
   display: grid;
   justify-content: center;
   justify-items: center;
-
-  ${Media.mobile`
-    grid-template-columns: minmax(300px, 400px);
-    grid-auto-rows: minmax(250px, auto);
-    /* top: 10px; */
-    padding: 10px 1vw 0px 1vw;
-  `}
-  ${Media.desktop`
-    grid-template-columns: minmax(300px, 300px) minmax(300px, 700px);
-    grid-auto-rows: minmax(200px, auto);
-    padding: 10px 1vw 0px 1vw;
-    /* top: 80px; */
-  `}
 `;
 
 function CloudAll(props) {

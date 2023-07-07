@@ -52,29 +52,13 @@ export default function Frontpanel() {
         >
           <Linkedin />
         </a>
-        <a href={Pdf} target="_blank" rel="noreferrer">
-          <Resume />
-        </a>
+
         <a
           href="https://github.com/benjaminhuang13"
           target="_blank"
           rel="noreferrer"
         >
           <Github />
-        </a>
-        <a
-          href="https://www.instagram.com/benyelloo/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Instagram />
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCWuNQ9eDfrbNIZBS2nJxBiw"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Youtube />
         </a>
         <a
           href="https://twitter.com/employedcats"
@@ -102,3 +86,9 @@ export default function Frontpanel() {
     </Paneldiv>
   );
 }
+
+/*        
+<a href={Pdf} target="_blank" rel="noreferrer">
+<Resume />
+</a>
+*/
