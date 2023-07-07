@@ -20,7 +20,6 @@ import Bgcloud3 from "../images/clouds/bgcloud3.png";
 import Boeing from "../images/boeing.png";
 import Mufg from "../images/mufg.png";
 import Stonybrook from "../images/stonybrook.png";
-import F15drawing from "../images/f15drawing3.png";
 import awsccp from "../images/logo/awsccp.png";
 import secplus from "../images/logo/secplus.png";
 import awssecurity from "../images/logo/awssecurity.png";
@@ -29,6 +28,7 @@ import chessappimg from "../images/chessappimg.svg";
 import SNKRappimg from "../images/SNKRappimg.png";
 import cattwitter from "../images/cattwitter.png";
 import vulnreport from "../images/vuln_report.png";
+import discordbot from "../images/discordbot.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -66,7 +66,8 @@ function Frontpage() {
             imgsrc1={cattwitter}
             imgsrc2={SNKRappimg}
             imgsrc3={vulnreport}
-            imgsrc4={chessappimg}
+            imgsrc4={discordbot}
+            imgsrc5={chessappimg}
           ></ContentProjects>
         </Whitebackground>
       </div>

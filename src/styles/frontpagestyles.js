@@ -146,8 +146,11 @@ export function ContentProjects(props) {
       <a href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf">
         <ContentProjImg src={props.imgsrc3} alt="Vulnerability Assessment" />
       </a>
+      <a href="https://github.com/benjaminhuang13/discord_bot_pesk/tree/main">
+        <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
+      </a>
       <a href="https://benjaminhuang13.github.io/chess-app/">
-        <ContentProjImg src={props.imgsrc4} alt="React Chess App" />
+        <ContentProjImg src={props.imgsrc5} alt="React Chess App" />
       </a>
     </ProjectContentCentered>
   );
