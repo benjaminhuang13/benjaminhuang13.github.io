@@ -27,6 +27,7 @@ import awssecurity from "../images/logo/awssecurity.png";
 import CISSP from "../images/logo/CISSP.png";
 import chessappimg from "../images/chessappimg.svg";
 import SNKRappimg from "../images/SNKRappimg.png";
+import cattwitter from "../images/cattwitter.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -61,8 +62,9 @@ function Frontpage() {
           ></ContentCert>
           <ContentProjects
             heading="Projects"
-            imgsrc1={chessappimg}
+            imgsrc1={cattwitter}
             imgsrc2={SNKRappimg}
+            imgsrc3={chessappimg}
           ></ContentProjects>
         </Whitebackground>
       </div>
