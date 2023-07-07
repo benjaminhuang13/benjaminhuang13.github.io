@@ -48,9 +48,9 @@ function Frontpage() {
           </ContentHeading>
           <Gridbackground> </Gridbackground>
           <ContentWorkExp
-            imgsrc1={Boeing}
+            imgsrc1={Stonybrook}
             imgsrc2={Mufg}
-            imgsrc3={Stonybrook}
+            imgsrc3={Boeing}
           ></ContentWorkExp>
           <ContentCert
             heading="Certifications"
