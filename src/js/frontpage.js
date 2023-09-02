@@ -45,15 +45,15 @@ function Frontpage() {
         <Scrollzoom></Scrollzoom>
         <CloudFunc></CloudFunc>
         <Whitebackground>
-          <ContentHeading heading="Work Experience">
-            Work Experience
-          </ContentHeading>
+          <ContentHeading heading="Work Experience"></ContentHeading>
           <Gridbackground> </Gridbackground>
+          {/* 
           <ContentWorkExp
             imgsrc1={Stonybrook}
             imgsrc2={Mufg}
             imgsrc3={Boeing}
           ></ContentWorkExp>
+          */}
           <ContentCert
             heading="Certifications"
             imgsrc1={secplus}
