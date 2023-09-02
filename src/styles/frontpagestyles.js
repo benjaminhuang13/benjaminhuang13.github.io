@@ -142,19 +142,31 @@ export function ContentProjects(props) {
   return (
     <ProjectContentCentered>
       <h2>{props.heading}</h2>
-      <a href="https://github.com/benjaminhuang13/reddit2twitter_cats/tree/main">
+      <a
+        href="https://github.com/benjaminhuang13/reddit2twitter_cats/tree/main"
+        target="_blank"
+      >
         <ContentProjImg src={props.imgsrc1} alt="Cat Twitter" />
       </a>
-      <a href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal">
+      <a
+        href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal"
+        target="_blank"
+      >
         <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
       </a>
-      <a href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf">
+      <a
+        href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf"
+        target="_blank"
+      >
         <ContentProjImg src={props.imgsrc3} alt="Vulnerability Assessment" />
       </a>
-      <a href="https://github.com/benjaminhuang13/discord_bot_pesk/tree/main">
+      <a
+        href="https://github.com/benjaminhuang13/discord_bot_pesk/tree/main"
+        target="_blank"
+      >
         <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
       </a>
-      <a href="https://benjaminhuang13.github.io/chess-app/">
+      <a href="https://benjaminhuang13.github.io/chess-app/" target="_blank">
         <ContentProjImg src={props.imgsrc5} alt="React Chess App" />
       </a>
     </ProjectContentCentered>
