@@ -102,7 +102,7 @@ function CloudFunc(props) {
 
   return (
     <section className="CloudsInSky">
-      <CloudAll offsetY={offsetY}></CloudAll>
+      <CloudAll offsetY={offsetY - 700}></CloudAll>
     </section>
   );
 }
