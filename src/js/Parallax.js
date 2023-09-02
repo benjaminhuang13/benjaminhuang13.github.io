@@ -74,8 +74,8 @@ function Midground(props) {
         </Headshot>
         <AboutMe
           text="An engineer passionate about cyber security, automation, and space exploration. 
-              I enjoy learning about cyber security because it is ever evolving, requires collaboration, and out-of-the-box thinking to successfully protect our systems.
-              I also love running, calisthenics, juggling, painting, video games, and financial literacy."
+              I chose cyber security because it is ever evolving, requires cross-functional collaboration, and out-of-the-box thinking to successfully protect our systems.
+              I also love running, calisthenics, juggling, painting, and spreading financial literacy."
         ></AboutMe>
       </AboutMeDiv>
     </MidgroundDiv>
