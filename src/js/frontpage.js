@@ -10,6 +10,8 @@ import {
   ContentHeading,
   ContentProjects,
   ContentWorkExp,
+  ContentArtGallery,
+  ContentFooter,
 } from "../styles/frontpagestyles.js";
 import Cloud2 from "../images/clouds/cloud2.png";
 import Cloud1 from "../images/clouds/cloud1.png";
@@ -29,6 +31,8 @@ import SNKRappimg from "../images/SNKRappimg.png";
 import cattwitter from "../images/cattwitter.png";
 import vulnreport from "../images/vuln_report.png";
 import discordbot from "../images/discordbot.png";
+import art_twocats from "../images/art/dalle_twocats_elope.png";
+import art_reddress_piano from "../images/art/dalle_reddress_piano_2.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -69,6 +73,12 @@ function Frontpage() {
             imgsrc4={discordbot}
             imgsrc5={chessappimg}
           ></ContentProjects>
+          <ContentArtGallery
+            heading="AI Art"
+            imgsrc1={art_reddress_piano}
+            imgsrc2={art_twocats}
+          ></ContentArtGallery>
+          <ContentFooter></ContentFooter>
         </Whitebackground>
       </div>
 
@@ -102,7 +112,7 @@ function CloudFunc(props) {
 
   return (
     <section className="CloudsInSky">
-      <CloudAll offsetY={offsetY - 700}></CloudAll>
+      <CloudAll offsetY={offsetY - 0}></CloudAll>
     </section>
   );
 }

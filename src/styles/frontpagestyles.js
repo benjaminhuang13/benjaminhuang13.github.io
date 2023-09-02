@@ -102,6 +102,20 @@ export const ContentProjImg = styled.img`
   }
 `;
 
+export const ContentArtImg = styled.img`
+  /* justify-content: center; */
+  height: 500px;
+  width: auto;
+  object-fit: contain;
+  z-index: 7;
+  max-width: 90vw;
+  opacity: 1;
+  padding: 10px 20px 10px 20px;
+  @media only screen and (max-width: 550px) {
+    height: 300px;
+  }
+`;
+
 export function Content(props) {
   return (
     <ContentText>
@@ -173,6 +187,16 @@ export function ContentProjects(props) {
   );
 }
 
+export function ContentArtGallery(props) {
+  return (
+    <ProjectContentCentered>
+      <h2>{props.heading}</h2>
+      <ContentArtImg src={props.imgsrc1} alt="Cat Twitter" />
+      <ContentArtImg src={props.imgsrc2} alt="SNKR Scraper" />
+    </ProjectContentCentered>
+  );
+}
+
 export const ContentCentered = styled.div`
   position: relative;
   font-family: "lcd_solidregular", sans-serif;
@@ -209,10 +233,25 @@ export const ProjectContentCentered = styled.div`
   color: rgb(49, 39, 39);
   z-index: 7;
   ${Media.mobile`
-      padding-bottom: 200px;
+    padding: 0px 0px 0px 0px;
   `}
 `;
 
+export const ContentFooter = styled.div`
+  position: relative;
+  font-family: "lcd_solidregular", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding-bottom: 10px;
+
+  width: 100%;
+  font-size: 1.1rem;
+  color: rgb(49, 39, 39);
+  z-index: 7;
+  ${Media.mobile`
+      padding-bottom: 200px;
+  `}
+`;
 export const ContentHeading = styled.div`
   position: relative;
   font-family: "lcd_solidregular", sans-serif;
