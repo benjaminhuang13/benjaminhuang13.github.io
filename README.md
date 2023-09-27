@@ -15,7 +15,7 @@ Styling Credits:
 
 Notes for Deploying onto Github.io:
 
-- "npm start" = starts development preview in browser
+- "npm run start" = starts development preview in browser
 - "npm run deploy" = runs the build for react and saves to master branch
 - "git add ." = adds new changes to staging area
 - "git commit -m "comment"" = captures a snapshot of projects currently stages changes

@@ -33,6 +33,7 @@ import vulnreport from "../images/vuln_report.png";
 import discordbot from "../images/discordbot.png";
 import art_twocats from "../images/art/dalle_twocats_elope.png";
 import art_reddress_piano from "../images/art/dalle_reddress_piano_2.png";
+import art_cat_yoga from "../images/art/midjourney_cat_yoga.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -74,9 +75,10 @@ function Frontpage() {
             imgsrc5={chessappimg}
           ></ContentProjects>
           <ContentArtGallery
-            heading="AI Art"
+            heading="AI Art Gallery"
             imgsrc1={art_reddress_piano}
             imgsrc2={art_twocats}
+            imgsrc3={art_cat_yoga}
           ></ContentArtGallery>
           <ContentFooter></ContentFooter>
         </Whitebackground>

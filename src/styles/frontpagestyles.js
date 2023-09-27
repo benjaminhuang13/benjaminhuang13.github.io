@@ -193,6 +193,7 @@ export function ContentArtGallery(props) {
       <h2>{props.heading}</h2>
       <ContentArtImg src={props.imgsrc1} alt="Cat Twitter" />
       <ContentArtImg src={props.imgsrc2} alt="SNKR Scraper" />
+      <ContentArtImg src={props.imgsrc3} alt="Cat Yoga" />
     </ProjectContentCentered>
   );
 }
@@ -233,7 +234,7 @@ export const ProjectContentCentered = styled.div`
   color: rgb(49, 39, 39);
   z-index: 7;
   ${Media.mobile`
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
   `}
 `;
 
