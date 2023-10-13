@@ -52,20 +52,12 @@ export default function Frontpanel() {
         >
           <Linkedin />
         </a>
-
         <a
           href="https://github.com/benjaminhuang13"
           target="_blank"
           rel="noreferrer"
         >
           <Github />
-        </a>
-        <a
-          href="https://twitter.com/employedcats"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Twitter />
         </a>
       </Iconholder>
 
