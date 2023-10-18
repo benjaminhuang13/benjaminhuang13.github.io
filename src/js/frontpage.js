@@ -34,6 +34,7 @@ import discordbot from "../images/discordbot.png";
 import art_twocats from "../images/art/dalle_twocats_elope.png";
 import art_reddress_piano from "../images/art/dalle_reddress_piano_2.png";
 import art_cat_yoga from "../images/art/midjourney_cat_yoga.png";
+import longwavewebsite from "../images/websiteicon.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -72,6 +73,7 @@ function Frontpage() {
             imgsrc2={SNKRappimg}
             imgsrc3={vulnreport}
             imgsrc4={discordbot}
+            imgsrc6={longwavewebsite}
             imgsrc5={chessappimg}
           ></ContentProjects>
           <ContentArtGallery

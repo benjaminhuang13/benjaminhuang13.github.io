@@ -156,33 +156,62 @@ export function ContentProjects(props) {
   return (
     <ProjectContentCentered>
       <h2>{props.heading}</h2>
-      <a
-        href="https://github.com/benjaminhuang13/reddit2twitter_cats/tree/main"
-        target="_blank"
-      >
-        <ContentProjImg src={props.imgsrc1} alt="Cat Twitter" />
-      </a>
-      <a
-        href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal"
-        target="_blank"
-      >
-        <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
-      </a>
-      <a
-        href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf"
-        target="_blank"
-      >
-        <ContentProjImg src={props.imgsrc3} alt="Vulnerability Assessment" />
-      </a>
-      <a
-        href="https://github.com/benjaminhuang13/discord_bot_pesk/tree/main"
-        target="_blank"
-      >
-        <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
-      </a>
-      <a href="https://benjaminhuang13.github.io/chess-app/" target="_blank">
-        <ContentProjImg src={props.imgsrc5} alt="React Chess App" />
-      </a>
+      <div className="Project-container">
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/reddit2twitter_cats/tree/main"
+            target="_blank"
+          >
+            <ContentProjImg src={props.imgsrc1} alt="Cat Twitter" />
+          </a>
+          <p className="caption">Cat Twitter</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal"
+            target="_blank"
+          >
+            <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
+          </a>
+          <p className="caption">SNKR Bot</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf"
+            target="_blank"
+          >
+            <ContentProjImg
+              src={props.imgsrc3}
+              alt="Vulnerability Assessment"
+            />
+          </a>
+          <p className="caption">Vuln. Ass.</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/discord_bot_pesk/tree/main"
+            target="_blank"
+          >
+            <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
+          </a>
+          <p className="caption">Discord Bot</p>
+        </div>
+        <div className="Project-item">
+          <a href="https://longwave-technologies.github.io/" target="_blank">
+            <ContentProjImg src={props.imgsrc6} alt="Small Business Website" />
+          </a>
+          <p className="caption">Website 4 Local Biz</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://benjaminhuang13.github.io/chess-app/"
+            target="_blank"
+          >
+            <ContentProjImg src={props.imgsrc5} alt="React Chess App" />
+          </a>
+          <p className="caption">Chess App</p>
+        </div>
+      </div>
     </ProjectContentCentered>
   );
 }
@@ -228,7 +257,6 @@ export const ProjectContentCentered = styled.div`
   letter-spacing: 1px;
   line-height: 1.4;
   padding-bottom: 10px;
-
   width: 100%;
   font-size: 1.1rem;
   color: rgb(49, 39, 39);

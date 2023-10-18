@@ -15,7 +15,16 @@
 
 a {
   text-decoration: none;
-  color: black;
+}
+.Project-container {
+  vertical-align: top;
+  display: flex;
+  padding: auto;
+  justify-content: center;
+}
+.Project-item {
+  width: 150px;
+  padding: 10px;
 }
 
 .background {
