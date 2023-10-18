@@ -19,8 +19,10 @@ a {
 .Project-container {
   vertical-align: top;
   display: flex;
+  flex-wrap: wrap;
   padding: auto;
   justify-content: center;
+  width: 100%;
 }
 .Project-item {
   width: 150px;
