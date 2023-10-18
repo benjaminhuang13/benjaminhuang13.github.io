@@ -185,7 +185,7 @@ export function ContentProjects(props) {
               alt="Vulnerability Assessment"
             />
           </a>
-          <p className="caption">Vuln. Ass.</p>
+          <p className="caption">Vulnerability Ass.</p>
         </div>
         <div className="Project-item">
           <a
