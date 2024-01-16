@@ -164,7 +164,7 @@ export function ContentProjects(props) {
           >
             <ContentProjImg src={props.imgsrc1} alt="Cat Twitter" />
           </a>
-          <p className="caption">Cat Twitter</p>
+          <p className="caption">Auto Cat Twitter Page</p>
         </div>
         <div className="Project-item">
           <a
@@ -173,7 +173,7 @@ export function ContentProjects(props) {
           >
             <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
           </a>
-          <p className="caption">SNKR Bot</p>
+          <p className="caption">SNKR Bot Scraper</p>
         </div>
         <div className="Project-item">
           <a
@@ -185,7 +185,7 @@ export function ContentProjects(props) {
               alt="Vulnerability Assessment"
             />
           </a>
-          <p className="caption">Vulnerability Ass.</p>
+          <p className="caption">Homelab Vulnerability Assessment Report</p>
         </div>
         <div className="Project-item">
           <a
@@ -194,22 +194,31 @@ export function ContentProjects(props) {
           >
             <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
           </a>
-          <p className="caption">Discord Bot</p>
+          <p className="caption">Discord Bot Uplifter</p>
         </div>
         <div className="Project-item">
           <a href="https://longwave-technologies.github.io/" target="_blank">
-            <ContentProjImg src={props.imgsrc6} alt="Small Business Website" />
+            <ContentProjImg src={props.imgsrc5} alt="Small Business Website" />
           </a>
-          <p className="caption">Website 4 Local Biz</p>
+          <p className="caption">React Website 4 Local Copier Biz</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/ultimate_budget_spreadsheet"
+            target="_blank"
+          >
+            <ContentProjImg src={props.imgsrc6} alt="Ult Budget Sheet" />
+          </a>
+          <p className="caption">Ultimate Budget Sheet</p>
         </div>
         <div className="Project-item">
           <a
             href="https://benjaminhuang13.github.io/chess-app/"
             target="_blank"
           >
-            <ContentProjImg src={props.imgsrc5} alt="React Chess App" />
+            <ContentProjImg src={props.imgsrc7} alt="React Chess App" />
           </a>
-          <p className="caption">Chess App</p>
+          <p className="caption">Chess App (WIP)</p>
         </div>
       </div>
     </ProjectContentCentered>

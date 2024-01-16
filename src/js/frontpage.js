@@ -26,15 +26,16 @@ import awsccp from "../images/logo/awsccp.png";
 import secplus from "../images/logo/secplus.png";
 import awssecurity from "../images/logo/awssecurity.png";
 import CISSP from "../images/logo/CISSP.png";
-import chessappimg from "../images/chessappimg.svg";
-import SNKRappimg from "../images/SNKRappimg.png";
-import cattwitter from "../images/cattwitter.png";
-import vulnreport from "../images/vuln_report.png";
-import discordbot from "../images/discordbot.png";
+import chessappimg from "../images/project_icons/chessappimg.svg";
+import SNKRappimg from "../images/project_icons/SNKRappimg.png";
+import cattwitter from "../images/project_icons/cattwitter.png";
+import vulnreport from "../images/project_icons/vuln_report.png";
+import discordbot from "../images/project_icons/discordbot.png";
+import longwavewebsite from "../images/project_icons/websiteicon.png";
+import budgetsheet from "../images/project_icons/budgetsheet.png";
 import art_twocats from "../images/art/dalle_twocats_elope.png";
 import art_reddress_piano from "../images/art/dalle_reddress_piano_2.png";
 import art_cat_yoga from "../images/art/midjourney_cat_yoga.png";
-import longwavewebsite from "../images/websiteicon.png";
 
 //import theme
 import Media from "../styles/theme.js";
@@ -73,8 +74,9 @@ function Frontpage() {
             imgsrc2={SNKRappimg}
             imgsrc3={vulnreport}
             imgsrc4={discordbot}
-            imgsrc6={longwavewebsite}
-            imgsrc5={chessappimg}
+            imgsrc5={longwavewebsite}
+            imgsrc6={budgetsheet}
+            imgsrc7={chessappimg}
           ></ContentProjects>
           <ContentArtGallery
             heading="AI Art Gallery"
