@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.13965da5.chunk.css",
-    "main.js": "/static/js/main.bf49d406.chunk.js",
-    "main.js.map": "/static/js/main.bf49d406.chunk.js.map",
+    "main.css": "/static/css/main.5aa356a1.chunk.css",
+    "main.js": "/static/js/main.bf63433f.chunk.js",
+    "main.js.map": "/static/js/main.bf63433f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9df7975d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9df7975d.js.map",
     "static/js/2.baf95c99.chunk.js": "/static/js/2.baf95c99.chunk.js",
@@ -10,16 +10,14 @@
     "static/js/3.8e01e510.chunk.js": "/static/js/3.8e01e510.chunk.js",
     "static/js/3.8e01e510.chunk.js.map": "/static/js/3.8e01e510.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.13965da5.chunk.css.map": "/static/css/main.13965da5.chunk.css.map",
+    "static/css/main.5aa356a1.chunk.css.map": "/static/css/main.5aa356a1.chunk.css.map",
     "static/js/2.baf95c99.chunk.js.LICENSE.txt": "/static/js/2.baf95c99.chunk.js.LICENSE.txt",
-    "static/media/Resume_BenjaminHuang.744a7257.pdf": "/static/media/Resume_BenjaminHuang.744a7257.pdf",
     "static/media/SNKRappimg.ccdfdf22.png": "/static/media/SNKRappimg.ccdfdf22.png",
     "static/media/awsccp.2fa1fd9b.png": "/static/media/awsccp.2fa1fd9b.png",
     "static/media/awssecurity.d18dc41f.png": "/static/media/awssecurity.d18dc41f.png",
     "static/media/bgcloud1.b8cf2e6a.png": "/static/media/bgcloud1.b8cf2e6a.png",
     "static/media/bgcloud2.f466b378.png": "/static/media/bgcloud2.f466b378.png",
     "static/media/bgcloud3.4c269bbd.png": "/static/media/bgcloud3.4c269bbd.png",
-    "static/media/boeing.8ff8db4d.png": "/static/media/boeing.8ff8db4d.png",
     "static/media/budgetsheet.1f292123.png": "/static/media/budgetsheet.1f292123.png",
     "static/media/chessappimg.5b14c13b.svg": "/static/media/chessappimg.5b14c13b.svg",
     "static/media/cloud1.4785692d.png": "/static/media/cloud1.4785692d.png",
@@ -37,23 +35,21 @@
     "static/media/mars.5f41aef4.png": "/static/media/mars.5f41aef4.png",
     "static/media/midjourney_cat_yoga.d12eda50.png": "/static/media/midjourney_cat_yoga.d12eda50.png",
     "static/media/moon.ea7f405c.png": "/static/media/moon.ea7f405c.png",
-    "static/media/mufg.0ef1d1dc.png": "/static/media/mufg.0ef1d1dc.png",
     "static/media/resume.52eac0f8.svg": "/static/media/resume.52eac0f8.svg",
     "static/media/rocket.96593c85.svg": "/static/media/rocket.96593c85.svg",
     "static/media/secplus.dcb9fe06.png": "/static/media/secplus.dcb9fe06.png",
     "static/media/spacestation.59dad7cc.png": "/static/media/spacestation.59dad7cc.png",
     "static/media/twinklestyles.scss": "/static/media/twinkling.fc744b9f.png",
-    "static/media/stonybrook.24a81bf7.png": "/static/media/stonybrook.24a81bf7.png",
     "static/media/twitter.a542a7c6.svg": "/static/media/twitter.a542a7c6.svg",
     "static/media/vuln_report.1ecde003.png": "/static/media/vuln_report.1ecde003.png",
-    "static/media/websiteicon.f9d169e8.png": "/static/media/websiteicon.f9d169e8.png",
+    "static/media/websiteicon.d347a70a.png": "/static/media/websiteicon.d347a70a.png",
     "static/media/window.86a423ce.svg": "/static/media/window.86a423ce.svg",
     "static/media/youtube.71fb2f97.svg": "/static/media/youtube.71fb2f97.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9df7975d.js",
     "static/js/2.baf95c99.chunk.js",
-    "static/css/main.13965da5.chunk.css",
-    "static/js/main.bf49d406.chunk.js"
+    "static/css/main.5aa356a1.chunk.css",
+    "static/js/main.bf63433f.chunk.js"
   ]
 }
