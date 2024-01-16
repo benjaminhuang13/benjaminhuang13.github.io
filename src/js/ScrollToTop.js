@@ -7,15 +7,6 @@ import styled from "styled-components";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
-  // Show button when page is scorlled upto given distance
-  // const toggleVisibility = () => {
-  //   if (window.pageYOffset > 2300) {
-  //     setIsVisible(true);
-  //   } else {
-  //     setIsVisible(false);
-  //   }
-  // };
-
   // Shows button when page is scrolled to the bottom of the page
   const handleScroll = (e) => {
     const el = e.target.documentElement;
@@ -33,10 +24,7 @@ export default function ScrollToTop() {
       behavior: "smooth",
     });
   };
-  // old useEffect function
-  // useEffect(() => {
-  //   window.addEventListener("scroll", toggleVisibility);
-  // }, []);
+;
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -44,11 +32,9 @@ export default function ScrollToTop() {
 
   return (
     <Scrolltotop>
-      {/* {isVisible && ( */}
       <div onClick={scrollToTop}>
         <img src={redbtn} alt="Go into orbit" className="redbtnimage" />
       </div>
-      )
     </Scrolltotop>
   );
 }

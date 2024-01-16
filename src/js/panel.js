@@ -4,7 +4,6 @@ import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
 import "../styles/glitch.scss";
 import "../styles/radar.css";
-import Pdf from "../docs/Resume_BenjaminHuang.pdf";
 import {
   Paneldiv,
   Iconholder,
@@ -31,13 +30,6 @@ export default function Frontpanel() {
     }
   };
 
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // };
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   }, []);
@@ -60,27 +52,6 @@ export default function Frontpanel() {
           <Github />
         </a>
       </Iconholder>
-
-      {/* <Radar>
-          <div>
-            <div class="ringbase ring0"></div>
-            <div class="ringbase ring1"></div>
-            <div class="ringbase ring2"></div>
-            <div class="pulse"></div>
-            <div class="pointer">
-              <div></div>
-            </div>
-            <div class="dot pos1"></div>
-            <div class="dot pos2"></div>
-          </div>
-        </Radar> */}
-      {/* </ScreenMiddle> */}
     </Paneldiv>
   );
 }
-
-/*        
-<a href={Pdf} target="_blank" rel="noreferrer">
-<Resume />
-</a>
-*/

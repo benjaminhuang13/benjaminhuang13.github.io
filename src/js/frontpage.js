@@ -9,7 +9,6 @@ import {
   ContentCert,
   ContentHeading,
   ContentProjects,
-  ContentWorkExp,
   ContentArtGallery,
   ContentFooter,
 } from "../styles/frontpagestyles.js";
@@ -19,9 +18,6 @@ import Cloud4 from "../images/clouds/cloud4.png";
 import Bgcloud1 from "../images/clouds/bgcloud1.png";
 import Bgcloud2 from "../images/clouds/bgcloud2.png";
 import Bgcloud3 from "../images/clouds/bgcloud3.png";
-import Boeing from "../images/boeing.png";
-import Mufg from "../images/mufg.png";
-import Stonybrook from "../images/stonybrook.png";
 import awsccp from "../images/logo/awsccp.png";
 import secplus from "../images/logo/secplus.png";
 import awssecurity from "../images/logo/awssecurity.png";
@@ -37,8 +33,6 @@ import art_twocats from "../images/art/dalle_twocats_elope.png";
 import art_reddress_piano from "../images/art/dalle_reddress_piano_2.png";
 import art_cat_yoga from "../images/art/midjourney_cat_yoga.png";
 
-//import theme
-import Media from "../styles/theme.js";
 //add custom components
 import ScrollToTop from "./ScrollToTop.js";
 import Parallax from "./Parallax";
@@ -54,13 +48,6 @@ function Frontpage() {
         <Whitebackground>
           <ContentHeading heading="Work Experience"></ContentHeading>
           <Gridbackground> </Gridbackground>
-          {/* 
-          <ContentWorkExp
-            imgsrc1={Stonybrook}
-            imgsrc2={Mufg}
-            imgsrc3={Boeing}
-          ></ContentWorkExp>
-          */}
           <ContentCert
             heading="Certifications"
             imgsrc1={secplus}
@@ -130,19 +117,12 @@ const Whitebackground = styled.div`
   background: linear-gradient(transparent, #f9f9f9 180px);
   z-index: 4;
   top: 150px;
-
-  /* display: grid; */
-  /* justify-content: center; */
-  /* justify-items: center; */
-
-  /* padding-left: 30px; */
 `;
 
 const Gridbackground = styled.div`
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #a9a9a9 1px, rgba(0, 0, 0, 0) 1px);
   position: absolute;
-  /* left: 0; */
   top: 100px;
   width: 100%;
   height: 100%;

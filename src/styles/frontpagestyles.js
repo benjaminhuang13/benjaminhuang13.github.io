@@ -126,18 +126,6 @@ export function Content(props) {
     </ContentText>
   );
 }
-export function ContentWorkExp(props) {
-  return (
-    <ContentCentered>
-      <h2>{props.heading}</h2>
-      <div>
-        <ContentCertImg src={props.imgsrc1} alt="" />
-        <ContentCertImg src={props.imgsrc2} alt="" />
-        <ContentCertImg src={props.imgsrc3} alt="" />
-      </div>
-    </ContentCentered>
-  );
-}
 export function ContentCert(props) {
   return (
     <ContentCentered>

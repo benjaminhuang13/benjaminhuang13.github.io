@@ -17,9 +17,7 @@ import styled from "styled-components";
 import "../styles/frontpage.css";
 //import theme
 import Media from "../styles/theme.js";
-
 import Panel from "./panel";
-
 export default function App() {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
