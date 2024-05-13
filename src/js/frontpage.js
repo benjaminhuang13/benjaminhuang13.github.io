@@ -19,6 +19,7 @@ import Bgcloud1 from "../images/clouds/bgcloud1.png";
 import Bgcloud2 from "../images/clouds/bgcloud2.png";
 import Bgcloud3 from "../images/clouds/bgcloud3.png";
 import awsccp from "../images/logo/awsccp.png";
+import aws_saa from "../images/logo/aws_saa.png";
 import secplus from "../images/logo/secplus.png";
 import awssecurity from "../images/logo/awssecurity.png";
 import CISSP from "../images/logo/CISSP.png";
@@ -52,8 +53,9 @@ function Frontpage() {
             heading="Certifications"
             imgsrc1={secplus}
             imgsrc2={awsccp}
-            imgsrc3={awssecurity}
-            imgsrc4={CISSP}
+            imgsrc3={aws_saa}
+            imgsrc4={awssecurity}
+            imgsrc5={CISSP}
           ></ContentCert>
           <ContentProjects
             heading="Projects"

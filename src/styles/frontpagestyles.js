@@ -133,8 +133,9 @@ export function ContentCert(props) {
       <div>
         <ContentCertImg src={props.imgsrc1} alt="" />
         <ContentCertImg src={props.imgsrc2} alt="" />
-        <ContentCertImgLoading src={props.imgsrc3} alt="" />
+        <ContentCertImg src={props.imgsrc3} alt="" />
         <ContentCertImgLoading src={props.imgsrc4} alt="" />
+        <ContentCertImgLoading src={props.imgsrc5} alt="" />
       </div>
     </ContentCentered>
   );
