@@ -1,1 +1,3 @@
-# Check out the 2021version branch. This is where developmenet happens. And when `npm run deploy` the static website is packaged and pushed to the master branch.
+## Check out the 2021version branch. That is where the real fun (developmenet) happens.
+
+When `npm run deploy` the static website is packaged and pushed to the master branch.
