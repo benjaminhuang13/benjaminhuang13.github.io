@@ -65,7 +65,7 @@ function Frontpage() {
             imgsrc4={discordbot}
             imgsrc5={longwavewebsite}
             imgsrc6={budgetsheet}
-            imgsrc7={chessappimg}
+            // imgsrc7={chessappimg}
           ></ContentProjects>
           <ContentArtGallery
             heading="AI Art Gallery"

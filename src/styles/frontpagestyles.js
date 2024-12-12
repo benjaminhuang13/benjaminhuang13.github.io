@@ -195,12 +195,13 @@ export function ContentProjects(props) {
           <a
             href="https://github.com/benjaminhuang13/ultimate_budget_spreadsheet"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <ContentProjImg src={props.imgsrc6} alt="Ult Budget Sheet" />
           </a>
           <p className="caption">Ultimate Budget Sheet</p>
         </div>
-        <div className="Project-item">
+        {/* <div className="Project-item">
           <a
             href="https://benjaminhuang13.github.io/chess-app/"
             target="_blank"
@@ -208,7 +209,7 @@ export function ContentProjects(props) {
             <ContentProjImg src={props.imgsrc7} alt="React Chess App" />
           </a>
           <p className="caption">Chess App (WIP)</p>
-        </div>
+        </div> */}
       </div>
     </ProjectContentCentered>
   );
