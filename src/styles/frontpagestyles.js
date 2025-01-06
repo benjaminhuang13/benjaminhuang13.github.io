@@ -183,13 +183,13 @@ export function ContentProjects(props) {
           >
             <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
           </a>
-          <p className="caption">Discord Bot Uplifter</p>
+          <p className="caption">Discord Bot Mood Uplifter</p>
         </div>
         <div className="Project-item">
           <a href="https://longwave-technologies.github.io/" target="_blank">
             <ContentProjImg src={props.imgsrc5} alt="Small Business Website" />
           </a>
-          <p className="caption">React Website 4 Local Copier Biz</p>
+          <p className="caption">React Landing Page</p>
         </div>
         <div className="Project-item">
           <a
@@ -200,6 +200,26 @@ export function ContentProjects(props) {
             <ContentProjImg src={props.imgsrc6} alt="Ult Budget Sheet" />
           </a>
           <p className="caption">Ultimate Budget Sheet</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/RouteMe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ContentProjImg src={props.imgsrc7} alt="Routeme" />
+          </a>
+          <p className="caption">RouteMe React App</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/SIR-Sim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ContentProjImg src={props.imgsrc8} alt="SIR-SIM" />
+          </a>
+          <p className="caption">AWS Serverless Epidemic Simulator</p>
         </div>
         {/* <div className="Project-item">
           <a

@@ -30,6 +30,8 @@ import vulnreport from "../images/project_icons/vuln_report.png";
 import discordbot from "../images/project_icons/discordbot.png";
 import longwavewebsite from "../images/project_icons/websiteicon.png";
 import budgetsheet from "../images/project_icons/budgetsheet.png";
+import routeme from "../images/project_icons/routeme.png";
+import sir_sim from "../images/project_icons/sir-sim.png";
 import art_twocats from "../images/art/dalle_twocats_elope.png";
 import art_reddress_piano from "../images/art/dalle_reddress_piano_2.png";
 import art_cat_yoga from "../images/art/midjourney_cat_yoga.png";
@@ -65,6 +67,8 @@ function Frontpage() {
             imgsrc4={discordbot}
             imgsrc5={longwavewebsite}
             imgsrc6={budgetsheet}
+            imgsrc7={routeme}
+            imgsrc8={sir_sim}
             // imgsrc7={chessappimg}
           ></ContentProjects>
           <ContentArtGallery
