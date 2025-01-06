@@ -1,5 +1,3 @@
-// import React from "react";   //deprecated
-// import ReactDOM from "react-dom";    //deprecated
 import { StrictMode } from "react";
 import "./index.css";
 import Frontpage from "./js/frontpage.js";
@@ -18,16 +16,3 @@ root.render(
     ,
   </StrictMode>
 );
-
-// Deprecated!
-// ReactDOM.render(
-//   <Router>
-//     <Frontpage />
-//   </Router>,
-//   document.getElementById("root")
-// );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
