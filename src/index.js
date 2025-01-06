@@ -1,15 +1,31 @@
-import React from "react";
-import ReactDOM from "react-dom";
+// import React from "react";   //deprecated
+// import ReactDOM from "react-dom";    //deprecated
+import { StrictMode } from "react";
 import "./index.css";
 import Frontpage from "./js/frontpage.js";
 import { BrowserRouter as Router } from "react-router-dom";
 
-ReactDOM.render(
-  <Router>
-    <Frontpage />
-  </Router>,
-  document.getElementById("root")
+import { createRoot } from "react-dom/client";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <Router>
+      <Frontpage />
+    </Router>
+    ,
+  </StrictMode>
 );
+
+// Deprecated!
+// ReactDOM.render(
+//   <Router>
+//     <Frontpage />
+//   </Router>,
+//   document.getElementById("root")
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
