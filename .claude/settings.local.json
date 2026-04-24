@@ -5,7 +5,10 @@
       "Bash(git reset *)",
       "Bash(git push *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(npm audit *)",
+      "Bash(npx react-scripts *)",
+      "Bash(echo \"EXIT: $?\")"
     ]
   }
 }
