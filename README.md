@@ -21,3 +21,25 @@
 - Yusuke Nakaya: https://codepen.io/YusukeNakaya/pen/XyOaBj
 - https://css-tricks.com/snippets/css/typewriter-effect/
 - Icons designed by me, Ben Huang!
+
+## Claude skills/plugins
+
+- https://github.com/JuliusBrussee/caveman
+  `claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman`
+
+## Claude install (Windows)
+
+https://use-claude.com/index
+
+- Install `irm https://use-claude.com/install.ps1 | iex`
+- Update PATH
+  -- Click the Start Menu (Windows icon).
+  -- Type environment variables.
+  -- Click Edit the system environment variables.
+  -- In the System Properties window, click Environment Variables... at the bottom.
+  -- Under User variables for benjh, click Path.
+  -- Click Edit...
+  -- Click New.
+  -- Add this the path, ie `C:\Users\USER\.local\bin`
+  -- click OK
+  -- restart terminal
