@@ -150,6 +150,7 @@ export function ContentProjects(props) {
           <a
             href="https://github.com/benjaminhuang13/reddit2twitter_cats/tree/main"
             target="_blank"
+            rel="noreferrer"
           >
             <ContentProjImg src={props.imgsrc1} alt="Cat Twitter" />
           </a>
@@ -159,6 +160,7 @@ export function ContentProjects(props) {
           <a
             href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal"
             target="_blank"
+            rel="noreferrer"
           >
             <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
           </a>
@@ -168,6 +170,7 @@ export function ContentProjects(props) {
           <a
             href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf"
             target="_blank"
+            rel="noreferrer"
           >
             <ContentProjImg
               src={props.imgsrc3}
@@ -180,13 +183,14 @@ export function ContentProjects(props) {
           <a
             href="https://github.com/benjaminhuang13/discord_bot_pesk/tree/main"
             target="_blank"
+            rel="noreferrer"
           >
             <ContentProjImg src={props.imgsrc4} alt="Discord Bot" />
           </a>
           <p className="caption">Discord Bot Mood Uplifter</p>
         </div>
         <div className="Project-item">
-          <a href="https://longwave-technologies.github.io/" target="_blank">
+          <a href="https://longwave-technologies.github.io/" target="_blank" rel="noreferrer">
             <ContentProjImg src={props.imgsrc5} alt="Small Business Website" />
           </a>
           <p className="caption">React Landing Page</p>

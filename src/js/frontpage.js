@@ -86,7 +86,7 @@ function Frontpage() {
       <div className="footer">
         <ScrollToTop />
         <div className="footertextdiv">
-          <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> Benjamin Huang{" "}
+          © Benjamin Huang{" "}
           {new Date().getFullYear()}
         </div>
       </div>
