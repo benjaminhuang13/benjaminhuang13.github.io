@@ -54,7 +54,9 @@ The live site uses a custom domain configured via public/CNAME.
 - Do NOT migrate or restructure styling systems unless requested
 - Avoid introducing new dependencies
 - Follow existing project patterns instead of redesigning architecture
-  **General Guidance**
+
+**General Guidance**
+
 - Prefer simple solutions over complex ones
 - Match existing code style and structure
 - Avoid unnecessary abstraction or overengineering
