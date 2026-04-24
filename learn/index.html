@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+    />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <title>Learn — Benjamin Huang</title>
     <style>
       * {
@@ -123,7 +128,7 @@
     </nav>
 
     <div class="hero">
-      <h1>/ learn</h1>
+      <h1>/learn</h1>
       <p>
         Study guides, notes, and blog posts for certifications and technical
         topics.
@@ -141,8 +146,21 @@
         </p>
       </a>
     </div>
-    <footer style="background:#0a0a14;color:rgba(255,255,255,0.3);text-align:center;padding:1rem;margin-top:2rem;font-size:0.85rem;border-top:1px solid rgba(0,255,0,0.2);">
-      &copy; Benjamin Huang <script>document.write(new Date().getFullYear())</script>
+    <footer
+      style="
+        background: #0a0a14;
+        color: rgba(255, 255, 255, 0.3);
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        font-size: 0.85rem;
+        border-top: 1px solid rgba(0, 255, 0, 0.2);
+      "
+    >
+      &copy; Benjamin Huang
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
     </footer>
   </body>
 </html>
