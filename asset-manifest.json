@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bd40143.css",
-    "main.js": "/static/js/main.fe8683fb.js",
+    "main.css": "/static/css/main.40127264.css",
+    "main.js": "/static/js/main.123ca63e.js",
     "static/media/dalle_reddress_piano_2.png": "/static/media/dalle_reddress_piano_2.b1086a140dceec11f68d.png",
     "static/media/bgcloud2.png": "/static/media/bgcloud2.f466b378473a47638700.png",
     "static/media/cloud2.png": "/static/media/cloud2.1db06030e6c406de0c68.png",
@@ -41,11 +41,11 @@
     "index.html": "/index.html",
     "static/media/launchpad.svg": "/static/media/launchpad.000c3ee7a79e61e707fe283bc43ce2de.svg",
     "static/media/window.svg": "/static/media/window.18a631277f75a84241602a5b08684183.svg",
-    "main.9bd40143.css.map": "/static/css/main.9bd40143.css.map",
-    "main.fe8683fb.js.map": "/static/js/main.fe8683fb.js.map"
+    "main.40127264.css.map": "/static/css/main.40127264.css.map",
+    "main.123ca63e.js.map": "/static/js/main.123ca63e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd40143.css",
-    "static/js/main.fe8683fb.js"
+    "static/css/main.40127264.css",
+    "static/js/main.123ca63e.js"
   ]
 }
