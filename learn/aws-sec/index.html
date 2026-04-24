@@ -547,15 +547,48 @@
     </style>
   </head>
   <body>
-    <div style="position:sticky;top:0;z-index:200;background:rgba(0,0,20,0.75);display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:44px;border-bottom:1px solid rgba(0,255,0,0.2);font-family:monospace;">
-      <a href="/" style="color:rgba(0,255,0,0.75);font-size:1rem;letter-spacing:2px;text-decoration:none;">BH</a>
-      <div style="display:flex;gap:1.5rem;">
-        <a href="/learn" style="color:rgba(255,255,255,0.7);font-size:0.85rem;letter-spacing:1px;text-decoration:none;">← Learn</a>
+    <div
+      style="
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        background: rgba(0, 0, 20, 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+        height: 44px;
+        border-bottom: 1px solid rgba(0, 255, 0, 0.2);
+        font-family: monospace;
+      "
+    >
+      <a
+        href="/"
+        style="
+          color: rgba(0, 255, 0, 0.75);
+          font-size: 1rem;
+          letter-spacing: 2px;
+          text-decoration: none;
+        "
+        >BH</a
+      >
+      <div style="display: flex; gap: 1.5rem">
+        <a
+          href="/learn"
+          style="
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-decoration: none;
+          "
+          >← Learn</a
+        >
       </div>
     </div>
     <header>
       <div class="logo">AWS</div>
       <h1>Security Specialty (SCS-C02) Study Guide</h1>
+      <p>This is AI generated, verify answers!</p>
     </header>
 
     <nav>
@@ -623,6 +656,9 @@
           <div class="quiz-nav">
             <button class="btn btn-secondary" onclick="prevQuestion()">
               Previous
+            </button>
+            <button class="btn btn-ghost" onclick="shuffleQuestions()">
+              Shuffle
             </button>
             <button class="btn btn-primary" onclick="nextQuestion()">
               Next
@@ -3987,6 +4023,16 @@
         renderQuestion();
       }
 
+      function shuffleQuestions() {
+        for (let i = qQuestions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [qQuestions[i], qQuestions[j]] = [qQuestions[j], qQuestions[i]];
+        }
+        qIndex = 0;
+        qAnswers = {};
+        renderQuestion();
+      }
+
       function nextQuestion() {
         qIndex = (qIndex + 1) % qQuestions.length;
         renderQuestion();
@@ -4002,5 +4048,8 @@
       // ============================================================
       init();
     </script>
+    <footer style="background:var(--primary);color:white;text-align:center;padding:1rem;margin-top:2rem;font-size:0.9rem;">
+      &copy; Benjamin Huang <script>document.write(new Date().getFullYear())</script>
+    </footer>
   </body>
 </html>
