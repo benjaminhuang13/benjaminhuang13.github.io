@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-import { ReactComponent as Githubicon } from "../images/icons/github.svg";
-import { ReactComponent as Instagramicon } from "../images/icons/instagram.svg";
-import { ReactComponent as Linkedinicon } from "../images/icons/linkedin.svg";
-import { ReactComponent as Youtubeicon } from "../images/icons/youtube.svg";
-import { ReactComponent as Resumeicon } from "../images/icons/resume.svg";
-import { ReactComponent as Twittericon } from "../images/icons/twitter.svg";
+import Githubicon from "../images/icons/github.svg?react";
+import Instagramicon from "../images/icons/instagram.svg?react";
+import Linkedinicon from "../images/icons/linkedin.svg?react";
+import Youtubeicon from "../images/icons/youtube.svg?react";
+import Resumeicon from "../images/icons/resume.svg?react";
+import Twittericon from "../images/icons/twitter.svg?react";
 
 // const ScreenGlow = keyframes`
 //     from {

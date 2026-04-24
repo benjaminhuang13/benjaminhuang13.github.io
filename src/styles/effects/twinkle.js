@@ -3,13 +3,10 @@ import "./twinklestyles.scss";
 
 function Twinkle() {
   return (
-    <div class="background-container">
-      <div class="stars"></div>
-      <div class="twinkling"></div>
-      <div class="twinkling2"></div>
-
-      {/* <div class="moonpng"></div> */}
-      {/* <img class="moonpng" src={Moon} alt="oopsie monki can't find"></img> */}
+    <div className="background-container">
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+      <div className="twinkling2"></div>
     </div>
   );
 }

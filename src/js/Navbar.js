@@ -48,7 +48,7 @@ export default function Navbar() {
     <NavBar>
       <Logo href="/">BH</Logo>
       <NavLinks>
-        <NavLink href="/learn">Learn</NavLink>
+        <NavLink href="/learn/">Learn</NavLink>
       </NavLinks>
     </NavBar>
   );

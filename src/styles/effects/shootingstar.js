@@ -3,13 +3,13 @@ import "./shootingstarstyle.scss";
 
 function ShootingStars() {
   return (
-    <div class="backgrounddiv">
-      <div class="night">
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
+    <div className="backgrounddiv">
+      <div className="night">
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
       </div>
     </div>
   );

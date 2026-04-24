@@ -8,8 +8,8 @@ import React, {
   useLayoutEffect,
 } from "react";
 
-import { ReactComponent as Rocketsvg } from "../images/icons/rocket.svg";
-import { ReactComponent as Rocketwindowsvg } from "../images/icons/window.svg";
+import Rocketsvg from "../images/icons/rocket.svg?react";
+import Rocketwindowsvg from "../images/icons/window.svg?react";
 
 export default () => {
   const [hideOnScroll, setHideOnScroll] = useState(true);
@@ -28,8 +28,8 @@ export default () => {
   return useMemo(
     () => (
       <Fragment>
-        <Rocketwindow show={hideOnScroll} />
-        <Rocket show={hideOnScroll}></Rocket>
+        <Rocketwindow $show={hideOnScroll} />
+        <Rocket $show={hideOnScroll}></Rocket>
       </Fragment>
     ),
     [hideOnScroll]
@@ -83,8 +83,8 @@ const Rocket = styled(Rocketsvg)`
   margin: 0 auto;
   position: fixed;
   z-index: 2;
-  transition: all 600ms ${(props) => (props.show ? "ease-out" : "ease-out")};
-  transform: ${(props) => (props.show ? "none" : " translate(0vw, 47vh) ")};
+  transition: all 600ms ${(props) => (props.$show ? "ease-out" : "ease-out")};
+  transform: ${(props) => (props.$show ? "none" : " translate(0vw, 47vh) ")};
 `;
 
 const Rocketwindow = styled(Rocketwindowsvg)`
@@ -97,6 +97,6 @@ const Rocketwindow = styled(Rocketwindowsvg)`
   z-index: 2;
   opacity: 0;
   top: 21.9vh;
-  transition: all 600ms ${(props) => (props.show ? "ease-out" : "ease-out")};
-  transform: ${(props) => (props.show ? "none" : " translate(0vw, 38vh) ")};
+  transition: all 600ms ${(props) => (props.$show ? "ease-out" : "ease-out")};
+  transform: ${(props) => (props.$show ? "none" : " translate(0vw, 38vh) ")};
 `;

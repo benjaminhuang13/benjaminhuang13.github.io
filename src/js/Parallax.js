@@ -55,10 +55,10 @@ function Midground(props) {
     <MidgroundDiv
       style={{ transform: `translateY(-${props.offsetY * 0.5}px)` }}
     >
-      <img class="moonpng" src={Moon} alt="oopsie monki can't find"></img>
-      <img class="marspng" src={Mars} alt="oopsie monki can't find"></img>
+      <img className="moonpng" src={Moon} alt="oopsie monki can't find"></img>
+      <img className="marspng" src={Mars} alt="oopsie monki can't find"></img>
       <img
-        class="spacestationpng"
+        className="spacestationpng"
         src={Spacestation}
         alt="oopsie monki can't find"
       ></img>

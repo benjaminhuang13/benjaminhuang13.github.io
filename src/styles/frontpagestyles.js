@@ -3,7 +3,7 @@ import Media from "../styles/theme.js";
 
 import "../styles/frontpage.css";
 import "../styles/font/stylesheet.css";
-import { ReactComponent as Launchpadsvg } from "../images/icons/launchpad.svg";
+import Launchpadsvg from "../images/icons/launchpad.svg?react";
 
 export const Div = styled.div`
   transform: translateX(${({ animate }) => (animate ? "0" : "-100vw")});
