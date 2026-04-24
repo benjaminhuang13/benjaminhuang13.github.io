@@ -40,10 +40,12 @@ import art_cat_yoga from "../images/art/midjourney_cat_yoga.png";
 import ScrollToTop from "./ScrollToTop.js";
 import Parallax from "./Parallax";
 import Scrollzoom from "./scrollzoom";
+import Navbar from "./Navbar.js";
 
 function Frontpage() {
   return (
     <div className="main">
+      <Navbar />
       <Parallax></Parallax>
       <div className="bodybackground">
         <Scrollzoom></Scrollzoom>

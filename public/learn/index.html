@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn — Benjamin Huang</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #0a0a14;
+        color: #e5e7eb;
+        min-height: 100vh;
+      }
+
+      .site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(0, 0, 20, 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+        height: 44px;
+        border-bottom: 1px solid rgba(0, 255, 0, 0.2);
+        font-family: monospace;
+      }
+
+      .site-nav a {
+        color: rgba(0, 255, 0, 0.75);
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-decoration: none;
+      }
+
+      .site-nav a:hover {
+        color: rgba(0, 255, 0, 1);
+      }
+
+      .hero {
+        padding: 4rem 2rem 2rem;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgba(0, 255, 0, 0.85);
+        letter-spacing: 2px;
+        font-family: monospace;
+      }
+
+      .hero p {
+        margin-top: 0.75rem;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.95rem;
+      }
+
+      .grid {
+        max-width: 900px;
+        margin: 3rem auto;
+        padding: 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .card {
+        background: #111827;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 10px;
+        padding: 1.5rem;
+        text-decoration: none;
+        color: inherit;
+        transition:
+          border-color 0.2s,
+          transform 0.2s;
+        display: block;
+      }
+
+      .card:hover {
+        border-color: rgba(0, 255, 0, 0.4);
+        transform: translateY(-2px);
+      }
+
+      .card-tag {
+        display: inline-block;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 0.2rem 0.6rem;
+        border-radius: 9999px;
+        background: rgba(255, 153, 0, 0.15);
+        color: #ff9900;
+        margin-bottom: 0.75rem;
+      }
+
+      .card h2 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #f9fafb;
+        margin-bottom: 0.4rem;
+      }
+
+      .card p {
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.45);
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="/">BH</a>
+    </nav>
+
+    <div class="hero">
+      <h1>/ learn</h1>
+      <p>
+        Study guides, notes, and blog posts for certifications and technical
+        topics.
+      </p>
+      <p>Some of this may be AI generated. c:</p>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="/learn/aws-sec">
+        <span class="card-tag">AWS</span>
+        <h2>AWS Security Specialty</h2>
+        <p>
+          Flashcards and practice questions for the SCS-C02 exam covering all 6
+          domains.
+        </p>
+      </a>
+    </div>
+  </body>
+</html>
