@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# editor / tool caches
+.eslintcache
+.vscode/
+
+# claude code local settings (not for sharing)
+.claude/
