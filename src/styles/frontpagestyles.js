@@ -131,10 +131,11 @@ export function ContentCert(props) {
     <ContentCentered>
       <h2>{props.heading}</h2>
       <div>
+        <ContentCertImg src={props.imgsrc9} alt="" />
         <ContentCertImg src={props.imgsrc1} alt="" />
         <ContentCertImg src={props.imgsrc2} alt="" />
         <ContentCertImg src={props.imgsrc3} alt="" />
-        <ContentCertImgLoading src={props.imgsrc4} alt="" />
+        <ContentCertImg src={props.imgsrc4} alt="" />
         <ContentCertImgLoading src={props.imgsrc5} alt="" />
       </div>
     </ContentCentered>
@@ -148,6 +149,38 @@ export function ContentProjects(props) {
       <div className="Project-container">
         <div className="Project-item">
           <a
+            href="https://pianoleads.benyellow.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ContentProjImg src={props.imgsrc9} alt="Piano Leads" />
+          </a>
+          <p className="caption">Sales Lead generation</p>
+        </div>
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/SIR-Sim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ContentProjImg src={props.imgsrc8} alt="SIR-SIM" />
+          </a>
+          <p className="caption">AWS Serverless Epidemic Simulator</p>
+        </div>
+
+        <div className="Project-item">
+          <a
+            href="https://github.com/benjaminhuang13/RouteMe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ContentProjImg src={props.imgsrc7} alt="Routeme" />
+          </a>
+          <p className="caption">RouteMe React App</p>
+        </div>
+
+        <div className="Project-item">
+          <a
             href="https://github.com/benjaminhuang13/reddit2twitter_cats/tree/main"
             target="_blank"
             rel="noreferrer"
@@ -158,14 +191,15 @@ export function ContentProjects(props) {
         </div>
         <div className="Project-item">
           <a
-            href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal"
+            href="https://longwave-technologies.github.io/"
             target="_blank"
             rel="noreferrer"
           >
-            <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
+            <ContentProjImg src={props.imgsrc5} alt="Small Business Website" />
           </a>
-          <p className="caption">SNKR Bot Scraper</p>
+          <p className="caption">Small Business Website</p>
         </div>
+
         <div className="Project-item">
           <a
             href="https://github.com/benjaminhuang13/vulnerability_assessment/blob/main/Vuln_Scanning_Report.pdf"
@@ -190,12 +224,6 @@ export function ContentProjects(props) {
           <p className="caption">Discord Bot Mood Uplifter</p>
         </div>
         <div className="Project-item">
-          <a href="https://longwave-technologies.github.io/" target="_blank" rel="noreferrer">
-            <ContentProjImg src={props.imgsrc5} alt="Small Business Website" />
-          </a>
-          <p className="caption">React Landing Page</p>
-        </div>
-        <div className="Project-item">
           <a
             href="https://github.com/benjaminhuang13/ultimate_budget_spreadsheet"
             target="_blank"
@@ -207,24 +235,15 @@ export function ContentProjects(props) {
         </div>
         <div className="Project-item">
           <a
-            href="https://github.com/benjaminhuang13/RouteMe"
+            href="https://github.com/benjaminhuang13/SNKRScraper-GoogleCal"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
-            <ContentProjImg src={props.imgsrc7} alt="Routeme" />
+            <ContentProjImg src={props.imgsrc2} alt="SNKR Scraper" />
           </a>
-          <p className="caption">RouteMe React App</p>
+          <p className="caption">SNKR Bot Scraper</p>
         </div>
-        <div className="Project-item">
-          <a
-            href="https://github.com/benjaminhuang13/SIR-Sim"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <ContentProjImg src={props.imgsrc8} alt="SIR-SIM" />
-          </a>
-          <p className="caption">AWS Serverless Epidemic Simulator</p>
-        </div>
+
         {/* <div className="Project-item">
           <a
             href="https://benjaminhuang13.github.io/chess-app/"

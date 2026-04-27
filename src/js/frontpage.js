@@ -25,6 +25,7 @@ import awssecurity from "../images/logo/awssecurity.png";
 import CISSP from "../images/logo/CISSP.png";
 import chessappimg from "../images/project_icons/chessappimg.svg";
 import SNKRappimg from "../images/project_icons/SNKRappimg.png";
+import pianoleads from "../images/project_icons/pianoleads.png";
 import cattwitter from "../images/project_icons/cattwitter.png";
 import vulnreport from "../images/project_icons/vuln_report.png";
 import discordbot from "../images/project_icons/discordbot.png";
@@ -53,16 +54,9 @@ function Frontpage() {
         <Whitebackground>
           <ContentHeading heading="Work Experience"></ContentHeading>
           <Gridbackground> </Gridbackground>
-          <ContentCert
-            heading="Certifications"
-            imgsrc1={secplus}
-            imgsrc2={awsccp}
-            imgsrc3={aws_saa}
-            imgsrc4={awssecurity}
-            imgsrc5={CISSP}
-          ></ContentCert>
           <ContentProjects
             heading="Projects"
+            imgsrc9={pianoleads}
             imgsrc1={cattwitter}
             imgsrc2={SNKRappimg}
             imgsrc3={vulnreport}
@@ -73,6 +67,14 @@ function Frontpage() {
             imgsrc8={sir_sim}
             // imgsrc7={chessappimg}
           ></ContentProjects>
+          <ContentCert
+            heading="Certifications"
+            imgsrc1={secplus}
+            imgsrc2={awsccp}
+            imgsrc3={aws_saa}
+            imgsrc4={awssecurity}
+            imgsrc5={CISSP}
+          ></ContentCert>
           <ContentArtGallery
             heading="AI Art Gallery"
             imgsrc1={art_reddress_piano}
@@ -86,8 +88,7 @@ function Frontpage() {
       <div className="footer">
         <ScrollToTop />
         <div className="footertextdiv">
-          © Benjamin Huang{" "}
-          {new Date().getFullYear()}
+          © Benjamin Huang {new Date().getFullYear()}
         </div>
       </div>
     </div>
