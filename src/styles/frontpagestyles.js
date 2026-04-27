@@ -155,7 +155,7 @@ export function ContentProjects(props) {
           >
             <ContentProjImg src={props.imgsrc9} alt="Piano Leads" />
           </a>
-          <p className="caption">Sales Lead generation</p>
+          <p className="caption">Sales Lead Finder</p>
         </div>
         <div className="Project-item">
           <a
