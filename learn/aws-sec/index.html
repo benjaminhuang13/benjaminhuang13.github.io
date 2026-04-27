@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+    />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <title>AWS Security Specialty - Study Guide</title>
     <style>
@@ -199,7 +202,7 @@
       .flashcard {
         position: relative;
         width: 100%;
-        height: 260px;
+        height: 360px;
         cursor: pointer;
         transform-style: preserve-3d;
         transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -528,7 +531,7 @@
       .page-subtitle {
         color: var(--muted);
         font-size: 0.9rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
       }
 
       @media (max-width: 600px) {
@@ -536,13 +539,16 @@
           font-size: 1.1rem;
         }
         .flashcard {
-          height: 240px;
+          height: 370px;
         }
         header h1 {
           font-size: 0.9rem;
         }
         nav button {
-          padding: 0.6rem 0.9rem;
+          padding: 0.2rem 0.2rem;
+          font-size: 0.7rem;
+        }
+        .fc-back .definition {
           font-size: 0.8rem;
         }
       }
