@@ -159,6 +159,16 @@ export function ContentProjects(props) {
         </div>
         <div className="Project-item">
           <a
+            href="https://ieeexplore.ieee.org/document/11261463"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ContentProjImg src={props.imgsrc10} alt="Publication" />
+          </a>
+          <p className="caption">IEEE Publication</p>
+        </div>
+        <div className="Project-item">
+          <a
             href="https://github.com/benjaminhuang13/SIR-Sim"
             target="_blank"
             rel="noopener noreferrer"

@@ -26,6 +26,7 @@ import CISSP from "../images/logo/CISSP.png";
 import chessappimg from "../images/project_icons/chessappimg.svg";
 import SNKRappimg from "../images/project_icons/SNKRappimg.png";
 import pianoleads from "../images/project_icons/pianoleads.png";
+import ieee_logo from "../images/project_icons/ieee_logo.png";
 import cattwitter from "../images/project_icons/cattwitter.png";
 import vulnreport from "../images/project_icons/vuln_report.png";
 import discordbot from "../images/project_icons/discordbot.png";
@@ -57,6 +58,7 @@ function Frontpage() {
           <ContentProjects
             heading="Projects"
             imgsrc9={pianoleads}
+            imgsrc10={ieee_logo}
             imgsrc1={cattwitter}
             imgsrc2={SNKRappimg}
             imgsrc3={vulnreport}
